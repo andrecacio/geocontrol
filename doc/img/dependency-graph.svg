@@ -1,0 +1,901 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; " viewBox="11.38 0.06 768.26 659.64"><g id="viewport-20250531195656952" class="svg-pan-zoom_viewport" transform="matrix(0.8184071143190691,0,0,0.8184071143190691,11.376299482279517,0.06483597856827217)" style="transform: matrix(0.818407, 0, 0, 0.818407, 11.3763, 0.064836);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 802)">
+<title>dependency-cruiser output</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-802 934.73,-802 934.73,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_src</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M20,-8C20,-8 910.73,-8 910.73,-8 916.73,-8 922.73,-14 922.73,-20 922.73,-20 922.73,-778 922.73,-778 922.73,-784 916.73,-790 910.73,-790 910.73,-790 20,-790 20,-790 14,-790 8,-784 8,-778 8,-778 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text text-anchor="middle" x="465.36" y="-777.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">src</text>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_src/routes</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M157,-586C157,-586 375.35,-586 375.35,-586 381.35,-586 387.35,-592 387.35,-598 387.35,-598 387.35,-751 387.35,-751 387.35,-757 381.35,-763 375.35,-763 375.35,-763 157,-763 157,-763 151,-763 145,-757 145,-751 145,-751 145,-598 145,-598 145,-592 151,-586 157,-586"/>
+<text text-anchor="middle" x="266.17" y="-750.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">routes</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_src/controllers</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M283.06,-362C283.06,-362 394.6,-362 394.6,-362 400.6,-362 406.6,-368 406.6,-374 406.6,-374 406.6,-558 406.6,-558 406.6,-564 400.6,-570 394.6,-570 394.6,-570 283.06,-570 283.06,-570 277.06,-570 271.06,-564 271.06,-558 271.06,-558 271.06,-374 271.06,-374 271.06,-368 277.06,-362 283.06,-362"/>
+<text text-anchor="middle" x="338.83" y="-557.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">controllers</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_src/models</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M574.14,-154C574.14,-154 902.73,-154 902.73,-154 908.73,-154 914.73,-160 914.73,-166 914.73,-166 914.73,-626 914.73,-626 914.73,-632 908.73,-638 902.73,-638 902.73,-638 574.14,-638 574.14,-638 568.14,-638 562.14,-632 562.14,-626 562.14,-626 562.14,-166 562.14,-166 562.14,-160 568.14,-154 574.14,-154"/>
+<text text-anchor="middle" x="738.44" y="-625.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">models</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_src/models/dao</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M598.9,-162C598.9,-162 894.73,-162 894.73,-162 900.73,-162 906.73,-168 906.73,-174 906.73,-174 906.73,-234 906.73,-234 906.73,-240 900.73,-246 894.73,-246 894.73,-246 598.9,-246 598.9,-246 592.9,-246 586.9,-240 586.9,-234 586.9,-234 586.9,-174 586.9,-174 586.9,-168 592.9,-162 598.9,-162"/>
+<text text-anchor="middle" x="746.81" y="-233.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">dao</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_src/models/dto</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M596.65,-254C596.65,-254 871.72,-254 871.72,-254 877.72,-254 883.72,-260 883.72,-266 883.72,-266 883.72,-419 883.72,-419 883.72,-425 877.72,-431 871.72,-431 871.72,-431 596.65,-431 596.65,-431 590.65,-431 584.65,-425 584.65,-419 584.65,-419 584.65,-266 584.65,-266 584.65,-260 590.65,-254 596.65,-254"/>
+<text text-anchor="middle" x="734.19" y="-418.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">dto</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_src/models/errors</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M582.14,-439C582.14,-439 772.2,-439 772.2,-439 778.2,-439 784.2,-445 784.2,-451 784.2,-451 784.2,-573 784.2,-573 784.2,-579 778.2,-585 772.2,-585 772.2,-585 582.14,-585 582.14,-585 576.14,-585 570.14,-579 570.14,-573 570.14,-573 570.14,-451 570.14,-451 570.14,-445 576.14,-439 582.14,-439"/>
+<text text-anchor="middle" x="677.17" y="-572.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">errors</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_src/repositories</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M426.6,-69C426.6,-69 542.14,-69 542.14,-69 548.14,-69 554.14,-75 554.14,-81 554.14,-81 554.14,-234 554.14,-234 554.14,-240 548.14,-246 542.14,-246 542.14,-246 426.6,-246 426.6,-246 420.6,-246 414.6,-240 414.6,-234 414.6,-234 414.6,-81 414.6,-81 414.6,-75 420.6,-69 426.6,-69"/>
+<text text-anchor="middle" x="484.37" y="-233.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">repositories</text>
+</g>
+<!-- src/app.ts -->
+<g id="node1" class="node">
+<title>src/app.ts</title>
+<g id="a_node1"><a xlink:href="src/app.ts" xlink:title="app.ts">
+<path fill="#ddfeff" stroke="black" d="M130.73,-689.4C130.73,-689.4 89.27,-689.4 89.27,-689.4 86.13,-689.4 83,-686.27 83,-683.13 83,-683.13 83,-676.87 83,-676.87 83,-673.73 86.13,-670.6 89.27,-670.6 89.27,-670.6 130.73,-670.6 130.73,-670.6 133.87,-670.6 137,-673.73 137,-676.87 137,-676.87 137,-683.13 137,-683.13 137,-686.27 133.87,-689.4 130.73,-689.4"/>
+<text text-anchor="start" x="97.74" y="-677.3" font-family="Helvetica,sans-Serif" font-size="9.00">app.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/authenticationRoutes.ts -->
+<g id="node2" class="node">
+<title>src/routes/authenticationRoutes.ts</title>
+<g id="a_node2"><a xlink:href="src/routes/authenticationRoutes.ts" xlink:title="authenticationRoutes.ts">
+<path fill="#ddfeff" stroke="black" d="M256.79,-612.4C256.79,-612.4 159.27,-612.4 159.27,-612.4 156.13,-612.4 153,-609.27 153,-606.13 153,-606.13 153,-599.87 153,-599.87 153,-596.73 156.13,-593.6 159.27,-593.6 159.27,-593.6 256.79,-593.6 256.79,-593.6 259.93,-593.6 263.06,-596.73 263.06,-599.87 263.06,-599.87 263.06,-606.13 263.06,-606.13 263.06,-609.27 259.93,-612.4 256.79,-612.4"/>
+<text text-anchor="start" x="161" y="-600.3" font-family="Helvetica,sans-Serif" font-size="9.00">authenticationRoutes.ts</text>
+</a>
+</g>
+</g>
+<!-- src/app.ts&#45;&gt;src/routes/authenticationRoutes.ts -->
+<g id="edge1" class="edge">
+<title>src/app.ts-&gt;src/routes/authenticationRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M113.79,-670.13C118.15,-656.53 127.92,-632.19 145,-619 145.77,-618.41 146.56,-617.83 147.37,-617.28"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="148.27,-619.19 152.43,-614.37 146.18,-615.54 148.27,-619.19"/>
+</g>
+<!-- src/routes/gatewayRoutes.ts -->
+<g id="node3" class="node">
+<title>src/routes/gatewayRoutes.ts</title>
+<g id="a_node3"><a xlink:href="src/routes/gatewayRoutes.ts" xlink:title="gatewayRoutes.ts">
+<path fill="#ddfeff" stroke="black" d="M245.53,-736.4C245.53,-736.4 170.53,-736.4 170.53,-736.4 167.39,-736.4 164.26,-733.27 164.26,-730.13 164.26,-730.13 164.26,-723.87 164.26,-723.87 164.26,-720.73 167.39,-717.6 170.53,-717.6 170.53,-717.6 245.53,-717.6 245.53,-717.6 248.67,-717.6 251.8,-720.73 251.8,-723.87 251.8,-723.87 251.8,-730.13 251.8,-730.13 251.8,-733.27 248.67,-736.4 245.53,-736.4"/>
+<text text-anchor="start" x="172.26" y="-724.3" font-family="Helvetica,sans-Serif" font-size="9.00">gatewayRoutes.ts</text>
+</a>
+</g>
+</g>
+<!-- src/app.ts&#45;&gt;src/routes/gatewayRoutes.ts -->
+<g id="edge2" class="edge">
+<title>src/app.ts-&gt;src/routes/gatewayRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M119.29,-689.76C125.65,-696.66 135.02,-705.6 145,-711 148.39,-712.84 152.01,-714.47 155.72,-715.92"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="154.73,-717.8 161.09,-717.8 156.13,-713.84 154.73,-717.8"/>
+</g>
+<!-- src/routes/measurementRoutes.ts -->
+<g id="node4" class="node">
+<title>src/routes/measurementRoutes.ts</title>
+<g id="a_node4"><a xlink:href="src/routes/measurementRoutes.ts" xlink:title="measurementRoutes.ts">
+<path fill="#ddfeff" stroke="black" d="M256.28,-674.4C256.28,-674.4 159.78,-674.4 159.78,-674.4 156.64,-674.4 153.51,-671.27 153.51,-668.13 153.51,-668.13 153.51,-661.87 153.51,-661.87 153.51,-658.73 156.64,-655.6 159.78,-655.6 159.78,-655.6 256.28,-655.6 256.28,-655.6 259.42,-655.6 262.55,-658.73 262.55,-661.87 262.55,-661.87 262.55,-668.13 262.55,-668.13 262.55,-671.27 259.42,-674.4 256.28,-674.4"/>
+<text text-anchor="start" x="161.51" y="-662.3" font-family="Helvetica,sans-Serif" font-size="9.00">measurementRoutes.ts</text>
+</a>
+</g>
+</g>
+<!-- src/app.ts&#45;&gt;src/routes/measurementRoutes.ts -->
+<g id="edge3" class="edge">
+<title>src/app.ts-&gt;src/routes/measurementRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M137.49,-675.86C139.84,-675.5 142.27,-675.12 144.75,-674.73"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="144.77,-676.85 150.38,-673.85 144.13,-672.7 144.77,-676.85"/>
+</g>
+<!-- src/routes/networkRoutes.ts -->
+<g id="node5" class="node">
+<title>src/routes/networkRoutes.ts</title>
+<g id="a_node5"><a xlink:href="src/routes/networkRoutes.ts" xlink:title="networkRoutes.ts">
+<path fill="#ddfeff" stroke="black" d="M244.53,-705.4C244.53,-705.4 171.53,-705.4 171.53,-705.4 168.4,-705.4 165.27,-702.27 165.27,-699.13 165.27,-699.13 165.27,-692.87 165.27,-692.87 165.27,-689.73 168.4,-686.6 171.53,-686.6 171.53,-686.6 244.53,-686.6 244.53,-686.6 247.66,-686.6 250.8,-689.73 250.8,-692.87 250.8,-692.87 250.8,-699.13 250.8,-699.13 250.8,-702.27 247.66,-705.4 244.53,-705.4"/>
+<text text-anchor="start" x="173.27" y="-693.3" font-family="Helvetica,sans-Serif" font-size="9.00">networkRoutes.ts</text>
+</a>
+</g>
+</g>
+<!-- src/app.ts&#45;&gt;src/routes/networkRoutes.ts -->
+<g id="edge4" class="edge">
+<title>src/app.ts-&gt;src/routes/networkRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M137.49,-684.41C143.37,-685.39 149.79,-686.46 156.28,-687.54"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="155.87,-689.61 162.14,-688.52 156.56,-685.46 155.87,-689.61"/>
+</g>
+<!-- src/routes/sensorRoutes.ts -->
+<g id="node6" class="node">
+<title>src/routes/sensorRoutes.ts</title>
+<g id="a_node6"><a xlink:href="src/routes/sensorRoutes.ts" xlink:title="sensorRoutes.ts">
+<path fill="#ddfeff" stroke="black" d="M373.08,-736.4C373.08,-736.4 304.58,-736.4 304.58,-736.4 301.45,-736.4 298.32,-733.27 298.32,-730.13 298.32,-730.13 298.32,-723.87 298.32,-723.87 298.32,-720.73 301.45,-717.6 304.58,-717.6 304.58,-717.6 373.08,-717.6 373.08,-717.6 376.21,-717.6 379.35,-720.73 379.35,-723.87 379.35,-723.87 379.35,-730.13 379.35,-730.13 379.35,-733.27 376.21,-736.4 373.08,-736.4"/>
+<text text-anchor="start" x="306.32" y="-724.3" font-family="Helvetica,sans-Serif" font-size="9.00">sensorRoutes.ts</text>
+</a>
+</g>
+</g>
+<!-- src/app.ts&#45;&gt;src/routes/sensorRoutes.ts -->
+<g id="edge5" class="edge">
+<title>src/app.ts-&gt;src/routes/sensorRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M113.06,-689.69C116.7,-704.08 125.77,-730.62 145,-742 195.07,-771.65 265.71,-754.28 306.13,-739.97"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="306.77,-741.97 311.68,-737.93 305.32,-738.03 306.77,-741.97"/>
+</g>
+<!-- src/routes/userRoutes.ts -->
+<g id="node7" class="node">
+<title>src/routes/userRoutes.ts</title>
+<g id="a_node7"><a xlink:href="src/routes/userRoutes.ts" xlink:title="userRoutes.ts">
+<path fill="#ddfeff" stroke="black" d="M237.53,-643.4C237.53,-643.4 178.53,-643.4 178.53,-643.4 175.4,-643.4 172.27,-640.27 172.27,-637.13 172.27,-637.13 172.27,-630.87 172.27,-630.87 172.27,-627.73 175.4,-624.6 178.53,-624.6 178.53,-624.6 237.53,-624.6 237.53,-624.6 240.66,-624.6 243.79,-627.73 243.79,-630.87 243.79,-630.87 243.79,-637.13 243.79,-637.13 243.79,-640.27 240.66,-643.4 237.53,-643.4"/>
+<text text-anchor="start" x="180.27" y="-631.3" font-family="Helvetica,sans-Serif" font-size="9.00">userRoutes.ts</text>
+</a>
+</g>
+</g>
+<!-- src/app.ts&#45;&gt;src/routes/userRoutes.ts -->
+<g id="edge6" class="edge">
+<title>src/app.ts-&gt;src/routes/userRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M119.62,-670.28C126.01,-663.65 135.26,-655.16 145,-650 150.67,-646.99 156.94,-644.52 163.25,-642.51"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="163.74,-644.56 168.92,-640.87 162.57,-640.52 163.74,-644.56"/>
+</g>
+<!-- src/controllers/authController.ts -->
+<g id="node8" class="node">
+<title>src/controllers/authController.ts</title>
+<g id="a_node8"><a xlink:href="src/controllers/authController.ts" xlink:title="authController.ts">
+<path fill="#ddfeff" stroke="black" d="M373.58,-481.4C373.58,-481.4 304.08,-481.4 304.08,-481.4 300.95,-481.4 297.81,-478.27 297.81,-475.13 297.81,-475.13 297.81,-468.87 297.81,-468.87 297.81,-465.73 300.95,-462.6 304.08,-462.6 304.08,-462.6 373.58,-462.6 373.58,-462.6 376.71,-462.6 379.85,-465.73 379.85,-468.87 379.85,-468.87 379.85,-475.13 379.85,-475.13 379.85,-478.27 376.71,-481.4 373.58,-481.4"/>
+<text text-anchor="start" x="305.81" y="-469.3" font-family="Helvetica,sans-Serif" font-size="9.00">authController.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/authenticationRoutes.ts&#45;&gt;src/controllers/authController.ts -->
+<g id="edge60" class="edge">
+<title>src/routes/authenticationRoutes.ts-&gt;src/controllers/authController.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M211.38,-593.21C217.29,-570.84 234.92,-515.8 271.06,-488 276.44,-483.86 282.73,-480.77 289.26,-478.47"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="289.57,-480.57 294.71,-476.83 288.36,-476.55 289.57,-480.57"/>
+</g>
+<!-- src/models/dto/User.ts -->
+<g id="node9" class="node">
+<title>src/models/dto/User.ts</title>
+<g id="a_node9"><a xlink:href="src/models/dto/User.ts" xlink:title="User.ts">
+<path fill="#ddfeff" stroke="black" d="M655.89,-373.4C655.89,-373.4 614.43,-373.4 614.43,-373.4 611.29,-373.4 608.16,-370.27 608.16,-367.13 608.16,-367.13 608.16,-360.87 608.16,-360.87 608.16,-357.73 611.29,-354.6 614.43,-354.6 614.43,-354.6 655.89,-354.6 655.89,-354.6 659.03,-354.6 662.16,-357.73 662.16,-360.87 662.16,-360.87 662.16,-367.13 662.16,-367.13 662.16,-370.27 659.03,-373.4 655.89,-373.4"/>
+<text text-anchor="start" x="620.91" y="-361.3" font-family="Helvetica,sans-Serif" font-size="9.00">User.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/authenticationRoutes.ts&#45;&gt;src/models/dto/User.ts -->
+<g id="edge61" class="edge">
+<title>src/routes/authenticationRoutes.ts-&gt;src/models/dto/User.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M249.95,-593.13C256.97,-591.62 264.21,-590.17 271.06,-589 330.85,-578.75 348.73,-591.19 406.6,-573 477.56,-550.7 513.71,-556.44 554.14,-494 567.95,-472.68 545.57,-399.24 562.14,-380 571.26,-369.41 585.69,-364.94 599.24,-363.3"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="599.13,-365.42 604.94,-362.84 598.79,-361.23 599.13,-365.42"/>
+</g>
+<!-- src/routes/gatewayRoutes.ts&#45;&gt;src/routes/sensorRoutes.ts -->
+<g id="edge65" class="edge">
+<title>src/routes/gatewayRoutes.ts-&gt;src/routes/sensorRoutes.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M252.28,-727C264.16,-727 277.12,-727 289.27,-727"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="288.93,-729.1 294.93,-727 288.93,-724.9 288.93,-729.1"/>
+</g>
+<!-- src/controllers/gatewayController.ts -->
+<g id="node13" class="node">
+<title>src/controllers/gatewayController.ts</title>
+<g id="a_node13"><a xlink:href="src/controllers/gatewayController.ts" xlink:title="gatewayController.ts">
+<path fill="#ddfeff" stroke="black" d="M381.58,-543.4C381.58,-543.4 296.08,-543.4 296.08,-543.4 292.95,-543.4 289.81,-540.27 289.81,-537.13 289.81,-537.13 289.81,-530.87 289.81,-530.87 289.81,-527.73 292.95,-524.6 296.08,-524.6 296.08,-524.6 381.58,-524.6 381.58,-524.6 384.72,-524.6 387.85,-527.73 387.85,-530.87 387.85,-530.87 387.85,-537.13 387.85,-537.13 387.85,-540.27 384.72,-543.4 381.58,-543.4"/>
+<text text-anchor="start" x="297.81" y="-531.3" font-family="Helvetica,sans-Serif" font-size="9.00">gatewayController.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/gatewayRoutes.ts&#45;&gt;src/controllers/gatewayController.ts -->
+<g id="edge62" class="edge">
+<title>src/routes/gatewayRoutes.ts-&gt;src/controllers/gatewayController.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M252.28,-719.75C256.41,-717.53 260.13,-714.67 263.06,-711 280.82,-688.71 257.4,-608.01 271.06,-583 279.24,-568.02 294.19,-556.4 307.88,-548.24"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="308.88,-550.09 313.08,-545.32 306.82,-546.42 308.88,-550.09"/>
+</g>
+<!-- src/models/dto/Gateway.ts -->
+<g id="node14" class="node">
+<title>src/models/dto/Gateway.ts</title>
+<g id="a_node14"><a xlink:href="src/models/dto/Gateway.ts" xlink:title="Gateway.ts">
+<path fill="#ddfeff" stroke="black" d="M769.68,-404.4C769.68,-404.4 721.2,-404.4 721.2,-404.4 718.06,-404.4 714.93,-401.27 714.93,-398.13 714.93,-398.13 714.93,-391.87 714.93,-391.87 714.93,-388.73 718.06,-385.6 721.2,-385.6 721.2,-385.6 769.68,-385.6 769.68,-385.6 772.81,-385.6 775.95,-388.73 775.95,-391.87 775.95,-391.87 775.95,-398.13 775.95,-398.13 775.95,-401.27 772.81,-404.4 769.68,-404.4"/>
+<text text-anchor="start" x="722.93" y="-392.3" font-family="Helvetica,sans-Serif" font-size="9.00">Gateway.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/gatewayRoutes.ts&#45;&gt;src/models/dto/Gateway.ts -->
+<g id="edge63" class="edge">
+<title>src/routes/gatewayRoutes.ts-&gt;src/models/dto/Gateway.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M250.36,-717.12C254.79,-715.38 259.11,-713.35 263.06,-711 267.38,-708.43 266.54,-705.21 271.06,-703 325.59,-676.31 346.84,-696.73 406.6,-686 534.92,-662.97 607.63,-718.24 692.18,-619 718.62,-587.97 688.65,-473.27 705.18,-436 709.46,-426.34 717.04,-417.58 724.4,-410.67"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="725.62,-412.4 728.73,-406.86 722.84,-409.24 725.62,-412.4"/>
+</g>
+<!-- src/models/UserType.ts -->
+<g id="node29" class="node">
+<title>src/models/UserType.ts</title>
+<g id="a_node29"><a xlink:href="src/models/UserType.ts" xlink:title="UserType.ts">
+<path fill="#ddfeff" stroke="black" d="M771.43,-611.4C771.43,-611.4 719.45,-611.4 719.45,-611.4 716.32,-611.4 713.18,-608.27 713.18,-605.13 713.18,-605.13 713.18,-598.87 713.18,-598.87 713.18,-595.73 716.32,-592.6 719.45,-592.6 719.45,-592.6 771.43,-592.6 771.43,-592.6 774.56,-592.6 777.69,-595.73 777.69,-598.87 777.69,-598.87 777.69,-605.13 777.69,-605.13 777.69,-608.27 774.56,-611.4 771.43,-611.4"/>
+<text text-anchor="start" x="721.18" y="-599.3" font-family="Helvetica,sans-Serif" font-size="9.00">UserType.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/gatewayRoutes.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge64" class="edge">
+<title>src/routes/gatewayRoutes.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M245.23,-717.11C253.65,-715.12 262.62,-713.26 271.06,-712 456.69,-684.21 531.6,-777.2 692.18,-680 714.94,-666.22 729.93,-638.28 737.8,-619.86"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="739.67,-620.84 739.96,-614.49 735.77,-619.27 739.67,-620.84"/>
+</g>
+<!-- src/controllers/measurementController.ts -->
+<g id="node16" class="node">
+<title>src/controllers/measurementController.ts</title>
+<g id="a_node16"><a xlink:href="src/controllers/measurementController.ts" xlink:title="measurementController.ts">
+<path fill="#ddfeff" stroke="black" d="M392.33,-419.4C392.33,-419.4 285.33,-419.4 285.33,-419.4 282.19,-419.4 279.06,-416.27 279.06,-413.13 279.06,-413.13 279.06,-406.87 279.06,-406.87 279.06,-403.73 282.19,-400.6 285.33,-400.6 285.33,-400.6 392.33,-400.6 392.33,-400.6 395.47,-400.6 398.6,-403.73 398.6,-406.87 398.6,-406.87 398.6,-413.13 398.6,-413.13 398.6,-416.27 395.47,-419.4 392.33,-419.4"/>
+<text text-anchor="start" x="287.06" y="-407.3" font-family="Helvetica,sans-Serif" font-size="9.00">measurementController.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/measurementRoutes.ts&#45;&gt;src/controllers/measurementController.ts -->
+<g id="edge66" class="edge">
+<title>src/routes/measurementRoutes.ts-&gt;src/controllers/measurementController.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M256.33,-655.37C258.86,-653.58 261.14,-651.47 263.06,-649 278.25,-629.4 255.36,-445.19 271.06,-426 271.33,-425.67 271.61,-425.34 271.9,-425.02"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="273.21,-426.66 276.33,-421.12 270.44,-423.51 273.21,-426.66"/>
+</g>
+<!-- src/routes/measurementRoutes.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge68" class="edge">
+<title>src/routes/measurementRoutes.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M262.73,-666.01C380.4,-667.91 653.58,-670.45 692.18,-654 709.34,-646.69 723.9,-630.85 733.26,-618.56"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="734.79,-620.02 736.61,-613.92 731.39,-617.55 734.79,-620.02"/>
+</g>
+<!-- src/models/errors/AppError.ts -->
+<g id="node36" class="node">
+<title>src/models/errors/AppError.ts</title>
+<g id="a_node36"><a xlink:href="src/models/errors/AppError.ts" xlink:title="AppError.ts">
+<path fill="#ddfeff" stroke="black" d="M769.93,-542.4C769.93,-542.4 720.95,-542.4 720.95,-542.4 717.81,-542.4 714.68,-539.27 714.68,-536.13 714.68,-536.13 714.68,-529.87 714.68,-529.87 714.68,-526.73 717.81,-523.6 720.95,-523.6 720.95,-523.6 769.93,-523.6 769.93,-523.6 773.06,-523.6 776.2,-526.73 776.2,-529.87 776.2,-529.87 776.2,-536.13 776.2,-536.13 776.2,-539.27 773.06,-542.4 769.93,-542.4"/>
+<text text-anchor="start" x="722.68" y="-530.3" font-family="Helvetica,sans-Serif" font-size="9.00">AppError.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/measurementRoutes.ts&#45;&gt;src/models/errors/AppError.ts -->
+<g id="edge67" class="edge">
+<title>src/routes/measurementRoutes.ts-&gt;src/models/errors/AppError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M262.82,-661.62C385.48,-653.67 676.55,-633.4 692.18,-619 716.41,-596.66 683.6,-570.91 705.18,-546 705.81,-545.27 706.49,-544.58 707.2,-543.92"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="708.12,-545.83 711.91,-540.73 705.77,-542.36 708.12,-545.83"/>
+</g>
+<!-- src/controllers/networkController.ts -->
+<g id="node22" class="node">
+<title>src/controllers/networkController.ts</title>
+<g id="a_node22"><a xlink:href="src/controllers/networkController.ts" xlink:title="networkController.ts">
+<path fill="#ddfeff" stroke="black" d="M380.58,-450.4C380.58,-450.4 297.08,-450.4 297.08,-450.4 293.95,-450.4 290.82,-447.27 290.82,-444.13 290.82,-444.13 290.82,-437.87 290.82,-437.87 290.82,-434.73 293.95,-431.6 297.08,-431.6 297.08,-431.6 380.58,-431.6 380.58,-431.6 383.71,-431.6 386.84,-434.73 386.84,-437.87 386.84,-437.87 386.84,-444.13 386.84,-444.13 386.84,-447.27 383.71,-450.4 380.58,-450.4"/>
+<text text-anchor="start" x="298.82" y="-438.3" font-family="Helvetica,sans-Serif" font-size="9.00">networkController.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/networkRoutes.ts&#45;&gt;src/controllers/networkController.ts -->
+<g id="edge69" class="edge">
+<title>src/routes/networkRoutes.ts-&gt;src/controllers/networkController.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M251.08,-689.5C255.71,-687.19 259.88,-684.1 263.06,-680 278.25,-660.4 255.36,-476.19 271.06,-457 274.17,-453.19 278.02,-450.2 282.28,-447.85"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="282.91,-449.87 287.55,-445.52 281.21,-446.03 282.91,-449.87"/>
+</g>
+<!-- src/models/dto/Network.ts -->
+<g id="node23" class="node">
+<title>src/models/dto/Network.ts</title>
+<g id="a_node23"><a xlink:href="src/models/dto/Network.ts" xlink:title="Network.ts">
+<path fill="#ddfeff" stroke="black" d="M658.15,-404.4C658.15,-404.4 612.17,-404.4 612.17,-404.4 609.04,-404.4 605.91,-401.27 605.91,-398.13 605.91,-398.13 605.91,-391.87 605.91,-391.87 605.91,-388.73 609.04,-385.6 612.17,-385.6 612.17,-385.6 658.15,-385.6 658.15,-385.6 661.28,-385.6 664.41,-388.73 664.41,-391.87 664.41,-391.87 664.41,-398.13 664.41,-398.13 664.41,-401.27 661.28,-404.4 658.15,-404.4"/>
+<text text-anchor="start" x="613.91" y="-392.3" font-family="Helvetica,sans-Serif" font-size="9.00">Network.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/networkRoutes.ts&#45;&gt;src/models/dto/Network.ts -->
+<g id="edge70" class="edge">
+<title>src/routes/networkRoutes.ts-&gt;src/models/dto/Network.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M251.25,-687.8C255.56,-685.75 259.62,-683.19 263.06,-680 270.39,-673.21 263.87,-665.93 271.06,-659 366.72,-566.81 473.39,-668.49 554.14,-563 571.33,-540.55 547.17,-459.99 562.14,-436 570.22,-423.06 583.95,-413.81 597.28,-407.41"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="598.06,-409.36 602.7,-405.01 596.36,-405.52 598.06,-409.36"/>
+</g>
+<!-- src/routes/networkRoutes.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge72" class="edge">
+<title>src/routes/networkRoutes.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M251.25,-697.23C354.24,-699.59 615.54,-701.48 692.18,-663 711.31,-653.39 726.3,-633.36 735.22,-618.87"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="736.8,-620.34 738.02,-614.1 733.17,-618.22 736.8,-620.34"/>
+</g>
+<!-- src/routes/networkRoutes.ts&#45;&gt;src/models/errors/AppError.ts -->
+<g id="edge71" class="edge">
+<title>src/routes/networkRoutes.ts-&gt;src/models/errors/AppError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M251.11,-693.29C362.89,-685.7 660.86,-662.75 692.18,-632 719.76,-604.92 680.26,-575.55 705.18,-546 705.8,-545.26 706.47,-544.56 707.17,-543.9"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="708.1,-545.81 711.85,-540.69 705.72,-542.35 708.1,-545.81"/>
+</g>
+<!-- src/controllers/sensorController.ts -->
+<g id="node24" class="node">
+<title>src/controllers/sensorController.ts</title>
+<g id="a_node24"><a xlink:href="src/controllers/sensorController.ts" xlink:title="sensorController.ts">
+<path fill="#ddfeff" stroke="black" d="M378.33,-512.4C378.33,-512.4 299.33,-512.4 299.33,-512.4 296.2,-512.4 293.07,-509.27 293.07,-506.13 293.07,-506.13 293.07,-499.87 293.07,-499.87 293.07,-496.73 296.2,-493.6 299.33,-493.6 299.33,-493.6 378.33,-493.6 378.33,-493.6 381.46,-493.6 384.59,-496.73 384.59,-499.87 384.59,-499.87 384.59,-506.13 384.59,-506.13 384.59,-509.27 381.46,-512.4 378.33,-512.4"/>
+<text text-anchor="start" x="301.07" y="-500.3" font-family="Helvetica,sans-Serif" font-size="9.00">sensorController.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/sensorRoutes.ts&#45;&gt;src/controllers/sensorController.ts -->
+<g id="edge73" class="edge">
+<title>src/routes/sensorRoutes.ts-&gt;src/controllers/sensorController.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M331.4,-717.12C315.75,-695.61 279.77,-642.31 267.06,-591 263.53,-576.76 262.81,-539.04 267.06,-525 267.99,-521.93 268.43,-520.83 271.06,-519 275.19,-516.13 279.78,-513.77 284.55,-511.83"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="284.91,-513.93 289.87,-509.95 283.51,-509.96 284.91,-513.93"/>
+</g>
+<!-- src/models/dto/Sensor.ts -->
+<g id="node25" class="node">
+<title>src/models/dto/Sensor.ts</title>
+<g id="a_node25"><a xlink:href="src/models/dto/Sensor.ts" xlink:title="Sensor.ts">
+<path fill="#ddfeff" stroke="black" d="M869.46,-404.4C869.46,-404.4 827.97,-404.4 827.97,-404.4 824.84,-404.4 821.71,-401.27 821.71,-398.13 821.71,-398.13 821.71,-391.87 821.71,-391.87 821.71,-388.73 824.84,-385.6 827.97,-385.6 827.97,-385.6 869.46,-385.6 869.46,-385.6 872.59,-385.6 875.72,-388.73 875.72,-391.87 875.72,-391.87 875.72,-398.13 875.72,-398.13 875.72,-401.27 872.59,-404.4 869.46,-404.4"/>
+<text text-anchor="start" x="829.71" y="-392.3" font-family="Helvetica,sans-Serif" font-size="9.00">Sensor.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/sensorRoutes.ts&#45;&gt;src/models/dto/Sensor.ts -->
+<g id="edge74" class="edge">
+<title>src/routes/sensorRoutes.ts-&gt;src/models/dto/Sensor.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M365,-736.8C379.3,-741.84 397.68,-747.46 414.6,-750 536.6,-768.34 577.49,-795.47 692.18,-750 827.83,-696.21 845.27,-478.79 847.43,-413.58"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="849.53,-413.86 847.58,-407.81 845.33,-413.75 849.53,-413.86"/>
+</g>
+<!-- src/routes/sensorRoutes.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge75" class="edge">
+<title>src/routes/sensorRoutes.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M379.74,-733.97C461.08,-747.28 642.55,-772.09 692.18,-738 731.12,-711.25 741.06,-651.13 743.58,-620.58"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="745.66,-620.93 743.97,-614.8 741.47,-620.65 745.66,-620.93"/>
+</g>
+<!-- src/routes/userRoutes.ts&#45;&gt;src/models/dto/User.ts -->
+<g id="edge77" class="edge">
+<title>src/routes/userRoutes.ts-&gt;src/models/dto/User.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M244.18,-627.99C250.94,-625.67 257.6,-622.45 263.06,-618 268.91,-613.22 264.85,-607.31 271.06,-603 320.99,-568.37 347.38,-598.64 406.6,-585 473.93,-569.49 512.29,-590.98 554.14,-536 575.17,-508.38 539.74,-406.51 562.14,-380 571.16,-369.33 585.58,-364.85 599.14,-363.22"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="599.04,-365.33 604.86,-362.76 598.71,-361.14 599.04,-365.33"/>
+</g>
+<!-- src/controllers/userController.ts -->
+<g id="node27" class="node">
+<title>src/controllers/userController.ts</title>
+<g id="a_node27"><a xlink:href="src/controllers/userController.ts" xlink:title="userController.ts">
+<path fill="#ddfeff" stroke="black" d="M373.58,-388.4C373.58,-388.4 304.09,-388.4 304.09,-388.4 300.95,-388.4 297.82,-385.27 297.82,-382.13 297.82,-382.13 297.82,-375.87 297.82,-375.87 297.82,-372.73 300.95,-369.6 304.09,-369.6 304.09,-369.6 373.58,-369.6 373.58,-369.6 376.71,-369.6 379.84,-372.73 379.84,-375.87 379.84,-375.87 379.84,-382.13 379.84,-382.13 379.84,-385.27 376.71,-388.4 373.58,-388.4"/>
+<text text-anchor="start" x="305.82" y="-376.3" font-family="Helvetica,sans-Serif" font-size="9.00">userController.ts</text>
+</a>
+</g>
+</g>
+<!-- src/routes/userRoutes.ts&#45;&gt;src/controllers/userController.ts -->
+<g id="edge76" class="edge">
+<title>src/routes/userRoutes.ts-&gt;src/controllers/userController.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M244.29,-630.3C251.54,-627.87 258.39,-624.03 263.06,-618 278.25,-598.4 255.36,-414.19 271.06,-395 275.78,-389.23 282.18,-385.33 289.15,-382.72"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="289.49,-384.81 294.64,-381.08 288.29,-380.78 289.49,-384.81"/>
+</g>
+<!-- src/routes/userRoutes.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge78" class="edge">
+<title>src/routes/userRoutes.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M244.13,-632.18C252.92,-631.76 262.33,-631.34 271.06,-631 364.61,-627.41 599.93,-634.98 692.18,-619 698.18,-617.96 704.43,-616.38 710.45,-614.6"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="711.05,-616.61 716.14,-612.79 709.78,-612.61 711.05,-616.61"/>
+</g>
+<!-- src/controllers/authController.ts&#45;&gt;src/models/dto/User.ts -->
+<g id="edge7" class="edge">
+<title>src/controllers/authController.ts-&gt;src/models/dto/User.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M380.15,-481.07C435.17,-492.37 529.74,-507.61 554.14,-485 571.31,-469.09 546.82,-397.68 562.14,-380 571.29,-369.44 585.73,-364.98 599.28,-363.33"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="599.16,-365.44 604.97,-362.86 598.82,-361.26 599.16,-365.44"/>
+</g>
+<!-- src/models/errors/UnauthorizedError.ts -->
+<g id="node10" class="node">
+<title>src/models/errors/UnauthorizedError.ts</title>
+<g id="a_node10"><a xlink:href="src/models/errors/UnauthorizedError.ts" xlink:title="UnauthorizedError.ts">
+<path fill="#ddfeff" stroke="black" d="M678.41,-558.4C678.41,-558.4 591.91,-558.4 591.91,-558.4 588.78,-558.4 585.64,-555.27 585.64,-552.13 585.64,-552.13 585.64,-545.87 585.64,-545.87 585.64,-542.73 588.78,-539.6 591.91,-539.6 591.91,-539.6 678.41,-539.6 678.41,-539.6 681.54,-539.6 684.68,-542.73 684.68,-545.87 684.68,-545.87 684.68,-552.13 684.68,-552.13 684.68,-555.27 681.54,-558.4 678.41,-558.4"/>
+<text text-anchor="start" x="593.64" y="-546.3" font-family="Helvetica,sans-Serif" font-size="9.00">UnauthorizedError.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/authController.ts&#45;&gt;src/models/errors/UnauthorizedError.ts -->
+<g id="edge8" class="edge">
+<title>src/controllers/authController.ts-&gt;src/models/errors/UnauthorizedError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M380.22,-476.87C389.41,-479.25 398.77,-482.77 406.6,-488 411.63,-491.36 409.56,-495.67 414.6,-499 470.73,-536.12 496.51,-518.15 562.14,-533 568.24,-534.38 574.63,-535.82 580.98,-537.23"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="580.32,-539.24 586.63,-538.49 581.23,-535.14 580.32,-539.24"/>
+</g>
+<!-- src/models/dto/Token.ts -->
+<g id="node11" class="node">
+<title>src/models/dto/Token.ts</title>
+<g id="a_node11"><a xlink:href="src/models/dto/Token.ts" xlink:title="Token.ts">
+<path fill="#ddfeff" stroke="black" d="M655.89,-342.4C655.89,-342.4 614.43,-342.4 614.43,-342.4 611.29,-342.4 608.16,-339.27 608.16,-336.13 608.16,-336.13 608.16,-329.87 608.16,-329.87 608.16,-326.73 611.29,-323.6 614.43,-323.6 614.43,-323.6 655.89,-323.6 655.89,-323.6 659.03,-323.6 662.16,-326.73 662.16,-329.87 662.16,-329.87 662.16,-336.13 662.16,-336.13 662.16,-339.27 659.03,-342.4 655.89,-342.4"/>
+<text text-anchor="start" x="617.9" y="-330.3" font-family="Helvetica,sans-Serif" font-size="9.00">Token.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/authController.ts&#45;&gt;src/models/dto/Token.ts -->
+<g id="edge9" class="edge">
+<title>src/controllers/authController.ts-&gt;src/models/dto/Token.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M380.11,-464.73C389.02,-462.47 398.29,-459.6 406.6,-456 478.62,-424.83 496.13,-411.85 554.14,-359 558.35,-355.17 557.31,-352.01 562.14,-349 573.16,-342.13 586.75,-338.19 599.14,-335.94"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="599.3,-338.04 604.91,-335.05 598.66,-333.89 599.3,-338.04"/>
+</g>
+<!-- src/repositories/UserRepository.ts -->
+<g id="node12" class="node">
+<title>src/repositories/UserRepository.ts</title>
+<g id="a_node12"><a xlink:href="src/repositories/UserRepository.ts" xlink:title="UserRepository.ts">
+<path fill="#ddfeff" stroke="black" d="M521.87,-157.4C521.87,-157.4 446.88,-157.4 446.88,-157.4 443.74,-157.4 440.61,-154.27 440.61,-151.13 440.61,-151.13 440.61,-144.87 440.61,-144.87 440.61,-141.73 443.74,-138.6 446.88,-138.6 446.88,-138.6 521.87,-138.6 521.87,-138.6 525,-138.6 528.13,-141.73 528.13,-144.87 528.13,-144.87 528.13,-151.13 528.13,-151.13 528.13,-154.27 525,-157.4 521.87,-157.4"/>
+<text text-anchor="start" x="448.61" y="-145.3" font-family="Helvetica,sans-Serif" font-size="9.00">UserRepository.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/authController.ts&#45;&gt;src/repositories/UserRepository.ts -->
+<g id="edge10" class="edge">
+<title>src/controllers/authController.ts-&gt;src/repositories/UserRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M380.17,-470.82C390.26,-468.48 400.07,-464.05 406.6,-456 427.05,-430.79 394.07,-189.14 414.6,-164 419.23,-158.34 425.43,-154.44 432.23,-151.8"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="432.42,-153.94 437.53,-150.15 431.17,-149.93 432.42,-153.94"/>
+</g>
+<!-- src/models/dto/User.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge37" class="edge">
+<title>src/models/dto/User.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M662.65,-365.11C673.47,-367.01 685.08,-371.17 692.18,-380 721.21,-416.08 677.32,-551 705.18,-588 705.57,-588.52 705.98,-589.02 706.41,-589.5"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="704.6,-590.74 710.59,-592.88 707.24,-587.47 704.6,-590.74"/>
+</g>
+<!-- src/models/errors/UnauthorizedError.ts&#45;&gt;src/models/errors/AppError.ts -->
+<g id="edge41" class="edge">
+<title>src/models/errors/UnauthorizedError.ts-&gt;src/models/errors/AppError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M684.91,-541.8C691.78,-540.78 698.77,-539.75 705.42,-538.77"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="705.63,-540.86 711.26,-537.9 705.01,-536.7 705.63,-540.86"/>
+</g>
+<!-- src/repositories/UserRepository.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge59" class="edge">
+<title>src/repositories/UserRepository.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M528.24,-143.81C582.13,-139.6 670.25,-136.57 692.18,-159 725.51,-193.1 677.11,-549.45 705.18,-588 705.43,-588.35 705.7,-588.69 705.97,-589.03"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="704.6,-590.62 710.54,-592.9 707.32,-587.42 704.6,-590.62"/>
+</g>
+<!-- src/models/dao/UserDAO.ts -->
+<g id="node34" class="node">
+<title>src/models/dao/UserDAO.ts</title>
+<g id="a_node34"><a xlink:href="src/models/dao/UserDAO.ts" xlink:title="UserDAO.ts">
+<path fill="#ddfeff" stroke="black" d="M660.9,-219.4C660.9,-219.4 609.42,-219.4 609.42,-219.4 606.29,-219.4 603.16,-216.27 603.16,-213.13 603.16,-213.13 603.16,-206.87 603.16,-206.87 603.16,-203.73 606.29,-200.6 609.42,-200.6 609.42,-200.6 660.9,-200.6 660.9,-200.6 664.03,-200.6 667.16,-203.73 667.16,-206.87 667.16,-206.87 667.16,-213.13 667.16,-213.13 667.16,-216.27 664.03,-219.4 660.9,-219.4"/>
+<text text-anchor="start" x="611.16" y="-207.3" font-family="Helvetica,sans-Serif" font-size="9.00">UserDAO.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/UserRepository.ts&#45;&gt;src/models/dao/UserDAO.ts -->
+<g id="edge58" class="edge">
+<title>src/repositories/UserRepository.ts-&gt;src/models/dao/UserDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M528.56,-150.71C537.97,-153.16 547.19,-157.26 554.14,-164 564.06,-173.6 552.18,-184.45 562.14,-194 570.69,-202.19 582.45,-206.56 594,-208.79"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="593.48,-210.83 599.73,-209.65 594.11,-206.68 593.48,-210.83"/>
+</g>
+<!-- src/controllers/gatewayController.ts&#45;&gt;src/models/dto/Gateway.ts -->
+<g id="edge11" class="edge">
+<title>src/controllers/gatewayController.ts-&gt;src/models/dto/Gateway.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M363.17,-543.88C433.83,-573.06 643.57,-654.09 692.18,-609 720.44,-582.78 689.48,-471.21 705.18,-436 709.48,-426.35 717.06,-417.6 724.42,-410.68"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="725.63,-412.41 728.75,-406.86 722.86,-409.25 725.63,-412.41"/>
+</g>
+<!-- src/repositories/GatewayRepository.ts -->
+<g id="node15" class="node">
+<title>src/repositories/GatewayRepository.ts</title>
+<g id="a_node15"><a xlink:href="src/repositories/GatewayRepository.ts" xlink:title="GatewayRepository.ts">
+<path fill="#ddfeff" stroke="black" d="M530.12,-219.4C530.12,-219.4 438.62,-219.4 438.62,-219.4 435.49,-219.4 432.35,-216.27 432.35,-213.13 432.35,-213.13 432.35,-206.87 432.35,-206.87 432.35,-203.73 435.49,-200.6 438.62,-200.6 438.62,-200.6 530.12,-200.6 530.12,-200.6 533.26,-200.6 536.39,-203.73 536.39,-206.87 536.39,-206.87 536.39,-213.13 536.39,-213.13 536.39,-216.27 533.26,-219.4 530.12,-219.4"/>
+<text text-anchor="start" x="440.35" y="-207.3" font-family="Helvetica,sans-Serif" font-size="9.00">GatewayRepository.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/gatewayController.ts&#45;&gt;src/repositories/GatewayRepository.ts -->
+<g id="edge12" class="edge">
+<title>src/controllers/gatewayController.ts-&gt;src/repositories/GatewayRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M388.04,-529.2C394.94,-526.71 401.44,-523.12 406.6,-518 448.5,-476.48 474.01,-289.01 481.24,-228.73"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="483.31,-229.1 481.93,-222.9 479.14,-228.61 483.31,-229.1"/>
+</g>
+<!-- src/models/dto/Gateway.ts&#45;&gt;src/models/dto/Sensor.ts -->
+<g id="edge33" class="edge">
+<title>src/models/dto/Gateway.ts-&gt;src/models/dto/Sensor.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M776.28,-395C787.72,-395 800.87,-395 812.74,-395"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="812.5,-397.1 818.5,-395 812.5,-392.9 812.5,-397.1"/>
+</g>
+<!-- src/models/dao/GatewayDAO.ts -->
+<g id="node30" class="node">
+<title>src/models/dao/GatewayDAO.ts</title>
+<g id="a_node30"><a xlink:href="src/models/dao/GatewayDAO.ts" xlink:title="GatewayDAO.ts">
+<path fill="#ddfeff" stroke="black" d="M669.15,-188.4C669.15,-188.4 601.17,-188.4 601.17,-188.4 598.03,-188.4 594.9,-185.27 594.9,-182.13 594.9,-182.13 594.9,-175.87 594.9,-175.87 594.9,-172.73 598.03,-169.6 601.17,-169.6 601.17,-169.6 669.15,-169.6 669.15,-169.6 672.29,-169.6 675.42,-172.73 675.42,-175.87 675.42,-175.87 675.42,-182.13 675.42,-182.13 675.42,-185.27 672.29,-188.4 669.15,-188.4"/>
+<text text-anchor="start" x="602.9" y="-176.3" font-family="Helvetica,sans-Serif" font-size="9.00">GatewayDAO.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/GatewayRepository.ts&#45;&gt;src/models/dao/GatewayDAO.ts -->
+<g id="edge42" class="edge">
+<title>src/repositories/GatewayRepository.ts-&gt;src/models/dao/GatewayDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M532.86,-200.11C549.81,-196.58 568.9,-192.6 585.91,-189.05"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="586.19,-191.14 591.63,-187.86 585.33,-187.03 586.19,-191.14"/>
+</g>
+<!-- src/models/dao/NetworkDAO.ts -->
+<g id="node31" class="node">
+<title>src/models/dao/NetworkDAO.ts</title>
+<g id="a_node31"><a xlink:href="src/models/dao/NetworkDAO.ts" xlink:title="NetworkDAO.ts">
+<path fill="#ddfeff" stroke="black" d="M778.18,-219.4C778.18,-219.4 712.7,-219.4 712.7,-219.4 709.57,-219.4 706.43,-216.27 706.43,-213.13 706.43,-213.13 706.43,-206.87 706.43,-206.87 706.43,-203.73 709.57,-200.6 712.7,-200.6 712.7,-200.6 778.18,-200.6 778.18,-200.6 781.31,-200.6 784.44,-203.73 784.44,-206.87 784.44,-206.87 784.44,-213.13 784.44,-213.13 784.44,-216.27 781.31,-219.4 778.18,-219.4"/>
+<text text-anchor="start" x="714.43" y="-207.3" font-family="Helvetica,sans-Serif" font-size="9.00">NetworkDAO.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/GatewayRepository.ts&#45;&gt;src/models/dao/NetworkDAO.ts -->
+<g id="edge43" class="edge">
+<title>src/repositories/GatewayRepository.ts-&gt;src/models/dao/NetworkDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M536.68,-204.71C543.15,-202.23 549.21,-198.78 554.14,-194 564.06,-184.4 551.2,-172.41 562.14,-164 585.06,-146.4 668.02,-148.14 692.18,-164 704.32,-171.98 694.79,-183.84 705.18,-194 705.48,-194.3 705.79,-194.59 706.1,-194.87"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="704.86,-196.57 710.95,-198.37 707.32,-193.16 704.86,-196.57"/>
+</g>
+<!-- src/models/dao/SensorDAO.ts -->
+<g id="node32" class="node">
+<title>src/models/dao/SensorDAO.ts</title>
+<g id="a_node32"><a xlink:href="src/models/dao/SensorDAO.ts" xlink:title="SensorDAO.ts">
+<path fill="#ddfeff" stroke="black" d="M775.93,-188.4C775.93,-188.4 714.95,-188.4 714.95,-188.4 711.81,-188.4 708.68,-185.27 708.68,-182.13 708.68,-182.13 708.68,-175.87 708.68,-175.87 708.68,-172.73 711.81,-169.6 714.95,-169.6 714.95,-169.6 775.93,-169.6 775.93,-169.6 779.07,-169.6 782.2,-172.73 782.2,-175.87 782.2,-175.87 782.2,-182.13 782.2,-182.13 782.2,-185.27 779.07,-188.4 775.93,-188.4"/>
+<text text-anchor="start" x="716.68" y="-176.3" font-family="Helvetica,sans-Serif" font-size="9.00">SensorDAO.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/GatewayRepository.ts&#45;&gt;src/models/dao/SensorDAO.ts -->
+<g id="edge44" class="edge">
+<title>src/repositories/GatewayRepository.ts-&gt;src/models/dao/SensorDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M536.73,-205.23C543.27,-202.69 549.34,-199.08 554.14,-194 568.4,-178.92 546.26,-161.36 562.14,-148 584.26,-129.4 664.31,-140.36 692.18,-148 703.94,-151.23 715.74,-157.86 725.14,-164.17"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="723.84,-165.82 729.95,-167.56 726.26,-162.39 723.84,-165.82"/>
+</g>
+<!-- src/models/errors/ConflictError.ts -->
+<g id="node37" class="node">
+<title>src/models/errors/ConflictError.ts</title>
+<g id="a_node37"><a xlink:href="src/models/errors/ConflictError.ts" xlink:title="ConflictError.ts">
+<path fill="#ddfeff" stroke="black" d="M666.65,-527.4C666.65,-527.4 603.67,-527.4 603.67,-527.4 600.54,-527.4 597.4,-524.27 597.4,-521.13 597.4,-521.13 597.4,-514.87 597.4,-514.87 597.4,-511.73 600.54,-508.6 603.67,-508.6 603.67,-508.6 666.65,-508.6 666.65,-508.6 669.78,-508.6 672.92,-511.73 672.92,-514.87 672.92,-514.87 672.92,-521.13 672.92,-521.13 672.92,-524.27 669.78,-527.4 666.65,-527.4"/>
+<text text-anchor="start" x="605.4" y="-515.3" font-family="Helvetica,sans-Serif" font-size="9.00">ConflictError.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/GatewayRepository.ts&#45;&gt;src/models/errors/ConflictError.ts -->
+<g id="edge45" class="edge">
+<title>src/repositories/GatewayRepository.ts-&gt;src/models/errors/ConflictError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M489.02,-219.71C500.51,-250.64 536.2,-349.87 554.14,-435 557.24,-449.67 552.08,-490.88 562.14,-502 568.99,-509.57 578.55,-513.97 588.47,-516.45"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="587.96,-518.49 594.25,-517.59 588.77,-514.37 587.96,-518.49"/>
+</g>
+<!-- src/models/dto/Measurement.ts -->
+<g id="node17" class="node">
+<title>src/models/dto/Measurement.ts</title>
+<g id="a_node17"><a xlink:href="src/models/dto/Measurement.ts" xlink:title="Measurement.ts">
+<path fill="#ddfeff" stroke="black" d="M779.43,-311.4C779.43,-311.4 711.44,-311.4 711.44,-311.4 708.31,-311.4 705.18,-308.27 705.18,-305.13 705.18,-305.13 705.18,-298.87 705.18,-298.87 705.18,-295.73 708.31,-292.6 711.44,-292.6 711.44,-292.6 779.43,-292.6 779.43,-292.6 782.57,-292.6 785.7,-295.73 785.7,-298.87 785.7,-298.87 785.7,-305.13 785.7,-305.13 785.7,-308.27 782.57,-311.4 779.43,-311.4"/>
+<text text-anchor="start" x="713.18" y="-299.3" font-family="Helvetica,sans-Serif" font-size="9.00">Measurement.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/measurementController.ts&#45;&gt;src/models/dto/Measurement.ts -->
+<g id="edge13" class="edge">
+<title>src/controllers/measurementController.ts-&gt;src/models/dto/Measurement.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M398.69,-401.2C447.86,-397.51 515.89,-401.64 554.14,-444 564.88,-455.89 550.5,-576.99 562.14,-588 572.64,-597.93 681.7,-597.95 692.18,-588 712.66,-568.54 692.4,-359.21 705.18,-334 708.47,-327.49 713.76,-321.84 719.4,-317.18"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="720.62,-318.88 724.17,-313.61 718.11,-315.52 720.62,-318.88"/>
+</g>
+<!-- src/models/dto/Measurements.ts -->
+<g id="node18" class="node">
+<title>src/models/dto/Measurements.ts</title>
+<g id="a_node18"><a xlink:href="src/models/dto/Measurements.ts" xlink:title="Measurements.ts">
+<path fill="#ddfeff" stroke="black" d="M671.41,-311.4C671.41,-311.4 598.91,-311.4 598.91,-311.4 595.78,-311.4 592.65,-308.27 592.65,-305.13 592.65,-305.13 592.65,-298.87 592.65,-298.87 592.65,-295.73 595.78,-292.6 598.91,-292.6 598.91,-292.6 671.41,-292.6 671.41,-292.6 674.54,-292.6 677.67,-295.73 677.67,-298.87 677.67,-298.87 677.67,-305.13 677.67,-305.13 677.67,-308.27 674.54,-311.4 671.41,-311.4"/>
+<text text-anchor="start" x="600.65" y="-299.3" font-family="Helvetica,sans-Serif" font-size="9.00">Measurements.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/measurementController.ts&#45;&gt;src/models/dto/Measurements.ts -->
+<g id="edge14" class="edge">
+<title>src/controllers/measurementController.ts-&gt;src/models/dto/Measurements.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M386.55,-400.19C393.35,-398.36 400.21,-396.3 406.6,-394 479.01,-367.99 489.52,-343.41 562.14,-318 569.01,-315.6 576.37,-313.47 583.67,-311.62"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="583.9,-313.73 589.24,-310.29 582.91,-309.65 583.9,-313.73"/>
+</g>
+<!-- src/models/dto/Stats.ts -->
+<g id="node19" class="node">
+<title>src/models/dto/Stats.ts</title>
+<g id="a_node19"><a xlink:href="src/models/dto/Stats.ts" xlink:title="Stats.ts">
+<path fill="#ddfeff" stroke="black" d="M766.17,-358.4C766.17,-358.4 724.71,-358.4 724.71,-358.4 721.57,-358.4 718.44,-355.27 718.44,-352.13 718.44,-352.13 718.44,-345.87 718.44,-345.87 718.44,-342.73 721.57,-339.6 724.71,-339.6 724.71,-339.6 766.17,-339.6 766.17,-339.6 769.31,-339.6 772.44,-342.73 772.44,-345.87 772.44,-345.87 772.44,-352.13 772.44,-352.13 772.44,-355.27 769.31,-358.4 766.17,-358.4"/>
+<text text-anchor="start" x="730.43" y="-346.3" font-family="Helvetica,sans-Serif" font-size="9.00">Stats.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/measurementController.ts&#45;&gt;src/models/dto/Stats.ts -->
+<g id="edge15" class="edge">
+<title>src/controllers/measurementController.ts-&gt;src/models/dto/Stats.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M396.94,-419.78C400.38,-421.54 403.64,-423.59 406.6,-426 413.08,-431.27 409.32,-436.53 414.6,-443 463.54,-502.9 514.18,-480.77 554.14,-547 566,-566.64 544.71,-583.09 562.14,-598 584.1,-616.78 671.14,-617.82 692.18,-598 709.84,-581.36 693.95,-401.51 705.18,-380 708.45,-373.72 713.63,-368.3 719.16,-363.82"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="720.18,-365.67 723.79,-360.44 717.7,-362.28 720.18,-365.67"/>
+</g>
+<!-- src/repositories/MeasurementRepository.ts -->
+<g id="node20" class="node">
+<title>src/repositories/MeasurementRepository.ts</title>
+<g id="a_node20"><a xlink:href="src/repositories/MeasurementRepository.ts" xlink:title="MeasurementRepository.ts">
+<path fill="#ddfeff" stroke="black" d="M539.88,-95.4C539.88,-95.4 428.87,-95.4 428.87,-95.4 425.73,-95.4 422.6,-92.27 422.6,-89.13 422.6,-89.13 422.6,-82.87 422.6,-82.87 422.6,-79.73 425.73,-76.6 428.87,-76.6 428.87,-76.6 539.88,-76.6 539.88,-76.6 543.01,-76.6 546.14,-79.73 546.14,-82.87 546.14,-82.87 546.14,-89.13 546.14,-89.13 546.14,-92.27 543.01,-95.4 539.88,-95.4"/>
+<text text-anchor="start" x="430.6" y="-83.3" font-family="Helvetica,sans-Serif" font-size="9.00">MeasurementRepository.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/measurementController.ts&#45;&gt;src/repositories/MeasurementRepository.ts -->
+<g id="edge16" class="edge">
+<title>src/controllers/measurementController.ts-&gt;src/repositories/MeasurementRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M399.09,-400.9C401.88,-398.97 404.42,-396.68 406.6,-394 427.05,-368.79 394.07,-127.14 414.6,-102 415.02,-101.48 415.46,-100.98 415.9,-100.49"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="416.89,-102.42 420.06,-96.91 414.14,-99.24 416.89,-102.42"/>
+</g>
+<!-- src/repositories/NetworkRepository.ts -->
+<g id="node21" class="node">
+<title>src/repositories/NetworkRepository.ts</title>
+<g id="a_node21"><a xlink:href="src/repositories/NetworkRepository.ts" xlink:title="NetworkRepository.ts">
+<path fill="#ddfeff" stroke="black" d="M528.87,-126.4C528.87,-126.4 439.88,-126.4 439.88,-126.4 436.74,-126.4 433.61,-123.27 433.61,-120.13 433.61,-120.13 433.61,-113.87 433.61,-113.87 433.61,-110.73 436.74,-107.6 439.88,-107.6 439.88,-107.6 528.87,-107.6 528.87,-107.6 532,-107.6 535.13,-110.73 535.13,-113.87 535.13,-113.87 535.13,-120.13 535.13,-120.13 535.13,-123.27 532,-126.4 528.87,-126.4"/>
+<text text-anchor="start" x="441.61" y="-114.3" font-family="Helvetica,sans-Serif" font-size="9.00">NetworkRepository.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/measurementController.ts&#45;&gt;src/repositories/NetworkRepository.ts -->
+<g id="edge17" class="edge">
+<title>src/controllers/measurementController.ts-&gt;src/repositories/NetworkRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M399.08,-400.89C401.87,-398.96 404.42,-396.68 406.6,-394 424.91,-371.5 396.21,-155.44 414.6,-133 417.58,-129.36 421.22,-126.45 425.24,-124.14"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="426.07,-126.07 430.64,-121.65 424.31,-122.25 426.07,-126.07"/>
+</g>
+<!-- src/models/dto/Measurements.ts&#45;&gt;src/models/dto/Measurement.ts -->
+<g id="edge34" class="edge">
+<title>src/models/dto/Measurements.ts-&gt;src/models/dto/Measurement.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M678.02,-302C683.94,-302 690.07,-302 696.09,-302"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="695.79,-304.1 701.79,-302 695.79,-299.9 695.79,-304.1"/>
+</g>
+<!-- src/models/dto/Measurements.ts&#45;&gt;src/models/dto/Stats.ts -->
+<g id="edge35" class="edge">
+<title>src/models/dto/Measurements.ts-&gt;src/models/dto/Stats.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M675.48,-311.84C681.17,-313.66 686.88,-315.72 692.18,-318 702.67,-322.52 713.63,-328.76 722.8,-334.46"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="721.59,-336.18 727.78,-337.64 723.85,-332.64 721.59,-336.18"/>
+</g>
+<!-- src/repositories/MeasurementRepository.ts&#45;&gt;src/models/dto/Measurement.ts -->
+<g id="edge50" class="edge">
+<title>src/repositories/MeasurementRepository.ts-&gt;src/models/dto/Measurement.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M518.08,-76.14C563.72,-64.62 646.07,-52.35 692.18,-97 716.53,-120.58 693.19,-217.29 705.18,-249 710.39,-262.79 720.29,-276.12 728.84,-285.96"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="727.13,-287.19 732.71,-290.22 730.24,-284.36 727.13,-287.19"/>
+</g>
+<!-- src/repositories/MeasurementRepository.ts&#45;&gt;src/models/dao/GatewayDAO.ts -->
+<g id="edge46" class="edge">
+<title>src/repositories/MeasurementRepository.ts-&gt;src/models/dao/GatewayDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M540.07,-95.83C544.96,-97.56 549.73,-99.6 554.14,-102 582.01,-117.13 607.11,-144.61 621.48,-162.32"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="619.72,-163.47 625.09,-166.87 623.01,-160.87 619.72,-163.47"/>
+</g>
+<!-- src/repositories/MeasurementRepository.ts&#45;&gt;src/models/dao/NetworkDAO.ts -->
+<g id="edge48" class="edge">
+<title>src/repositories/MeasurementRepository.ts-&gt;src/models/dao/NetworkDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M503.99,-76.12C519.17,-68.65 541.4,-59.03 562.14,-55 590.51,-49.49 670.81,-35.54 692.18,-55 715.11,-75.89 686.69,-169.09 705.18,-194 705.29,-194.16 705.41,-194.31 705.53,-194.46"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="703.82,-195.74 709.65,-198.29 706.68,-192.67 703.82,-195.74"/>
+</g>
+<!-- src/repositories/MeasurementRepository.ts&#45;&gt;src/models/dao/SensorDAO.ts -->
+<g id="edge49" class="edge">
+<title>src/repositories/MeasurementRepository.ts-&gt;src/models/dao/SensorDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M497.47,-76.11C511.86,-65.05 537.09,-47.8 562.14,-41 617.92,-25.86 644.62,-8.16 692.18,-41 731.74,-68.32 741.38,-129.76 743.71,-160.6"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="741.61,-160.57 744.06,-166.44 745.8,-160.32 741.61,-160.57"/>
+</g>
+<!-- src/models/dao/MeasurementDAO.ts -->
+<g id="node33" class="node">
+<title>src/models/dao/MeasurementDAO.ts</title>
+<g id="a_node33"><a xlink:href="src/models/dao/MeasurementDAO.ts" xlink:title="MeasurementDAO.ts">
+<path fill="#ddfeff" stroke="black" d="M892.46,-188.4C892.46,-188.4 804.97,-188.4 804.97,-188.4 801.83,-188.4 798.7,-185.27 798.7,-182.13 798.7,-182.13 798.7,-175.87 798.7,-175.87 798.7,-172.73 801.83,-169.6 804.97,-169.6 804.97,-169.6 892.46,-169.6 892.46,-169.6 895.6,-169.6 898.73,-172.73 898.73,-175.87 898.73,-175.87 898.73,-182.13 898.73,-182.13 898.73,-185.27 895.6,-188.4 892.46,-188.4"/>
+<text text-anchor="start" x="806.7" y="-176.3" font-family="Helvetica,sans-Serif" font-size="9.00">MeasurementDAO.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/MeasurementRepository.ts&#45;&gt;src/models/dao/MeasurementDAO.ts -->
+<g id="edge47" class="edge">
+<title>src/repositories/MeasurementRepository.ts-&gt;src/models/dao/MeasurementDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M493.05,-76.24C505.6,-61.18 532.12,-32.87 562.14,-22 616.48,-2.32 638.83,0.24 692.18,-22 761.68,-50.98 816.03,-127.8 837.61,-162.08"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="835.64,-162.87 840.57,-166.88 839.21,-160.67 835.64,-162.87"/>
+</g>
+<!-- src/repositories/NetworkRepository.ts&#45;&gt;src/models/dao/NetworkDAO.ts -->
+<g id="edge51" class="edge">
+<title>src/repositories/NetworkRepository.ts-&gt;src/models/dao/NetworkDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M534.25,-107.13C541.01,-105.33 547.8,-103.29 554.14,-101 557.88,-99.65 558.27,-97.91 562.14,-97 618.39,-83.72 648.68,-58.95 692.18,-97 724.91,-125.64 678.56,-159.6 705.18,-194 705.29,-194.15 705.41,-194.3 705.54,-194.45"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="703.86,-195.77 709.72,-198.24 706.68,-192.66 703.86,-195.77"/>
+</g>
+<!-- src/repositories/NetworkRepository.ts&#45;&gt;src/models/dao/SensorDAO.ts -->
+<g id="edge53" class="edge">
+<title>src/repositories/NetworkRepository.ts-&gt;src/models/dao/SensorDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M535.32,-111.22C542.13,-108.83 548.66,-105.53 554.14,-101 560.89,-95.42 554.8,-87.77 562.14,-83 610.6,-51.51 642.49,-53.48 692.18,-83 720.44,-99.79 734.38,-137.83 740.45,-160.66"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="738.4,-161.13 741.86,-166.46 742.48,-160.14 738.4,-161.13"/>
+</g>
+<!-- src/models/errors/NotFoundError.ts -->
+<g id="node39" class="node">
+<title>src/models/errors/NotFoundError.ts</title>
+<g id="a_node39"><a xlink:href="src/models/errors/NotFoundError.ts" xlink:title="NotFoundError.ts">
+<path fill="#ddfeff" stroke="black" d="M671.41,-465.4C671.41,-465.4 598.91,-465.4 598.91,-465.4 595.78,-465.4 592.65,-462.27 592.65,-459.13 592.65,-459.13 592.65,-452.87 592.65,-452.87 592.65,-449.73 595.78,-446.6 598.91,-446.6 598.91,-446.6 671.41,-446.6 671.41,-446.6 674.54,-446.6 677.67,-449.73 677.67,-452.87 677.67,-452.87 677.67,-459.13 677.67,-459.13 677.67,-462.27 674.54,-465.4 671.41,-465.4"/>
+<text text-anchor="start" x="600.65" y="-453.3" font-family="Helvetica,sans-Serif" font-size="9.00">NotFoundError.ts</text>
+</a>
+</g>
+</g>
+<!-- src/repositories/NetworkRepository.ts&#45;&gt;src/models/errors/NotFoundError.ts -->
+<g id="edge52" class="edge">
+<title>src/repositories/NetworkRepository.ts-&gt;src/models/errors/NotFoundError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M535.37,-120.37C542.62,-123.01 549.26,-127.02 554.14,-133 575.29,-158.92 541.88,-407.37 562.14,-434 567.61,-441.18 575.35,-446.09 583.76,-449.42"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="583.1,-451.42 589.45,-451.31 584.42,-447.43 583.1,-451.42"/>
+</g>
+<!-- src/controllers/networkController.ts&#45;&gt;src/repositories/NetworkRepository.ts -->
+<g id="edge19" class="edge">
+<title>src/controllers/networkController.ts-&gt;src/repositories/NetworkRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M387.05,-437.86C394.6,-435.25 401.57,-431.2 406.6,-425 427.05,-399.79 394.07,-158.14 414.6,-133 417.58,-129.35 421.21,-126.44 425.23,-124.13"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="426.06,-126.06 430.63,-121.64 424.3,-122.24 426.06,-126.06"/>
+</g>
+<!-- src/controllers/networkController.ts&#45;&gt;src/models/dto/Network.ts -->
+<g id="edge18" class="edge">
+<title>src/controllers/networkController.ts-&gt;src/models/dto/Network.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M387.12,-433.61C445.49,-424.49 543.56,-409.16 596.89,-400.82"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="597.08,-402.92 602.69,-399.92 596.44,-398.77 597.08,-402.92"/>
+</g>
+<!-- src/models/dto/Network.ts&#45;&gt;src/models/dto/Gateway.ts -->
+<g id="edge36" class="edge">
+<title>src/models/dto/Network.ts-&gt;src/models/dto/Gateway.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M664.89,-395C677.31,-395 692.04,-395 705.43,-395"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="705.41,-397.1 711.41,-395 705.41,-392.9 705.41,-397.1"/>
+</g>
+<!-- src/controllers/sensorController.ts&#45;&gt;src/models/dto/Sensor.ts -->
+<g id="edge20" class="edge">
+<title>src/controllers/sensorController.ts-&gt;src/models/dto/Sensor.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M384.92,-511.92C392.28,-513.91 399.74,-516.26 406.6,-519 570.98,-584.63 646.08,-749.79 785.7,-641 822.09,-612.64 840.45,-465.95 845.92,-413.6"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="848,-413.9 846.52,-407.72 843.82,-413.47 848,-413.9"/>
+</g>
+<!-- src/repositories/SensorRepository.ts -->
+<g id="node26" class="node">
+<title>src/repositories/SensorRepository.ts</title>
+<g id="a_node26"><a xlink:href="src/repositories/SensorRepository.ts" xlink:title="SensorRepository.ts">
+<path fill="#ddfeff" stroke="black" d="M526.62,-188.4C526.62,-188.4 442.12,-188.4 442.12,-188.4 438.99,-188.4 435.85,-185.27 435.85,-182.13 435.85,-182.13 435.85,-175.87 435.85,-175.87 435.85,-172.73 438.99,-169.6 442.12,-169.6 442.12,-169.6 526.62,-169.6 526.62,-169.6 529.76,-169.6 532.89,-172.73 532.89,-175.87 532.89,-175.87 532.89,-182.13 532.89,-182.13 532.89,-185.27 529.76,-188.4 526.62,-188.4"/>
+<text text-anchor="start" x="443.85" y="-176.3" font-family="Helvetica,sans-Serif" font-size="9.00">SensorRepository.ts</text>
+</a>
+</g>
+</g>
+<!-- src/controllers/sensorController.ts&#45;&gt;src/repositories/SensorRepository.ts -->
+<g id="edge21" class="edge">
+<title>src/controllers/sensorController.ts-&gt;src/repositories/SensorRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M385.01,-500.52C393.33,-497.96 401.12,-493.76 406.6,-487 427.05,-461.79 394.07,-220.14 414.6,-195 418.11,-190.7 422.53,-187.42 427.43,-184.94"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="427.9,-187.01 432.66,-182.8 426.31,-183.13 427.9,-187.01"/>
+</g>
+<!-- src/repositories/SensorRepository.ts&#45;&gt;src/models/dao/GatewayDAO.ts -->
+<g id="edge54" class="edge">
+<title>src/repositories/SensorRepository.ts-&gt;src/models/dao/GatewayDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M533.27,-179C550.2,-179 569.23,-179 586.17,-179"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="585.78,-181.1 591.78,-179 585.78,-176.9 585.78,-181.1"/>
+</g>
+<!-- src/repositories/SensorRepository.ts&#45;&gt;src/models/dao/SensorDAO.ts -->
+<g id="edge56" class="edge">
+<title>src/repositories/SensorRepository.ts-&gt;src/models/dao/SensorDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M533.26,-174.53C540.92,-172.04 548.25,-168.37 554.14,-163 562.46,-155.43 553.02,-145.57 562.14,-139 585.58,-122.1 664.81,-129.73 692.18,-139 706.28,-143.78 719.58,-154.06 729.22,-163.01"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="727.63,-164.39 733.4,-167.07 730.56,-161.38 727.63,-164.39"/>
+</g>
+<!-- src/repositories/SensorRepository.ts&#45;&gt;src/models/dao/MeasurementDAO.ts -->
+<g id="edge55" class="edge">
+<title>src/repositories/SensorRepository.ts-&gt;src/models/dao/MeasurementDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M533.08,-175.31C540.95,-172.76 548.4,-168.87 554.14,-163 566.22,-150.67 548.74,-135.87 562.14,-125 607.02,-88.59 635.19,-115.39 692.18,-125 737.78,-132.69 787.86,-152.23 818.55,-165.57"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="817.57,-167.43 823.9,-167.93 819.26,-163.59 817.57,-167.43"/>
+</g>
+<!-- src/repositories/SensorRepository.ts&#45;&gt;src/models/errors/ConflictError.ts -->
+<g id="edge57" class="edge">
+<title>src/repositories/SensorRepository.ts-&gt;src/models/errors/ConflictError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M533.29,-181.65C541.34,-184.26 548.8,-188.45 554.14,-195 575.71,-221.44 540.45,-475.66 562.14,-502 568.69,-509.95 578.24,-514.49 588.25,-516.97"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="587.84,-519.03 594.13,-518.08 588.62,-514.9 587.84,-519.03"/>
+</g>
+<!-- src/controllers/userController.ts&#45;&gt;src/models/dto/User.ts -->
+<g id="edge22" class="edge">
+<title>src/controllers/userController.ts-&gt;src/models/dto/User.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M380.14,-376.95C438.15,-373.99 544.24,-368.58 599.15,-365.78"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="598.92,-367.9 604.8,-365.5 598.7,-363.7 598.92,-367.9"/>
+</g>
+<!-- src/controllers/userController.ts&#45;&gt;src/repositories/UserRepository.ts -->
+<g id="edge23" class="edge">
+<title>src/controllers/userController.ts-&gt;src/repositories/UserRepository.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M340.07,-369.54C341.45,-335.95 350.83,-221.34 414.6,-164 419.6,-159.5 425.61,-156.2 431.98,-153.79"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="432.21,-155.92 437.29,-152.09 430.94,-151.91 432.21,-155.92"/>
+</g>
+<!-- src/index.ts -->
+<g id="node28" class="node">
+<title>src/index.ts</title>
+<g id="a_node28"><a xlink:href="src/index.ts" xlink:title="index.ts">
+<path fill="#ddfeff" stroke="black" d="M63.73,-689.4C63.73,-689.4 22.27,-689.4 22.27,-689.4 19.13,-689.4 16,-686.27 16,-683.13 16,-683.13 16,-676.87 16,-676.87 16,-673.73 19.13,-670.6 22.27,-670.6 22.27,-670.6 63.73,-670.6 63.73,-670.6 66.87,-670.6 70,-673.73 70,-676.87 70,-676.87 70,-683.13 70,-683.13 70,-686.27 66.87,-689.4 63.73,-689.4"/>
+<text text-anchor="start" x="27.49" y="-677.3" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
+</a>
+</g>
+</g>
+<!-- src/index.ts&#45;&gt;src/app.ts -->
+<g id="edge24" class="edge">
+<title>src/index.ts-&gt;src/app.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M70.44,-680C71.58,-680 72.74,-680 73.9,-680"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="73.77,-682.1 79.77,-680 73.77,-677.9 73.77,-682.1"/>
+</g>
+<!-- src/models/dao/GatewayDAO.ts&#45;&gt;src/models/dao/NetworkDAO.ts -->
+<g id="edge25" class="edge">
+<title>src/models/dao/GatewayDAO.ts-&gt;src/models/dao/NetworkDAO.ts</title>
+<g id="a_edge25"><a xlink:title="no-circular">
+<path fill="none" stroke="orange" stroke-width="2" d="M675.64,-184.33C681.19,-185.86 686.83,-187.47 692.18,-189 698.16,-190.71 704.53,-192.54 710.69,-194.41"/>
+<polygon fill="orange" stroke="orange" stroke-width="2" points="719.2,-199.43 725.55,-199.31 720.51,-195.44 719.2,-199.43"/>
+<polyline fill="none" stroke="orange" stroke-width="2" points="718.91,-197.12 716.06,-196.18"/>
+<ellipse fill="none" stroke="orange" stroke-width="2" cx="712.83" cy="-195.11" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="722.96" y="-191.82" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no-circular</text>
+</g>
+<!-- src/models/dao/GatewayDAO.ts&#45;&gt;src/models/dao/SensorDAO.ts -->
+<g id="edge26" class="edge">
+<title>src/models/dao/GatewayDAO.ts-&gt;src/models/dao/SensorDAO.ts</title>
+<g id="a_edge26"><a xlink:title="no-circular">
+<path fill="none" stroke="orange" stroke-width="2" d="M675.86,-174.65C680.35,-174.55 684.97,-174.5 689.6,-174.5"/>
+<polygon fill="orange" stroke="orange" stroke-width="2" points="699.27,-176.72 705.3,-174.69 699.33,-172.52 699.27,-176.72"/>
+<polyline fill="none" stroke="orange" stroke-width="2" points="698.3,-174.61 695.3,-174.57"/>
+<ellipse fill="none" stroke="orange" stroke-width="2" cx="691.9" cy="-174.53" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="710.55" y="-166.4" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no-circular</text>
+</g>
+<!-- src/models/dao/NetworkDAO.ts&#45;&gt;src/models/dao/GatewayDAO.ts -->
+<g id="edge28" class="edge">
+<title>src/models/dao/NetworkDAO.ts-&gt;src/models/dao/GatewayDAO.ts</title>
+<g id="a_edge28"><a xlink:title="no-circular">
+<path fill="none" stroke="orange" stroke-width="2" d="M706.19,-204.97C701.47,-203.66 696.71,-202.3 692.18,-201 685.15,-198.99 677.63,-196.84 670.45,-194.65"/>
+<polygon fill="orange" stroke="orange" stroke-width="2" points="662.06,-189.68 655.7,-189.8 660.75,-193.67 662.06,-189.68"/>
+<polyline fill="none" stroke="orange" stroke-width="2" points="662.35,-191.99 665.2,-192.93"/>
+<ellipse fill="none" stroke="orange" stroke-width="2" cx="668.43" cy="-193.99" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="658.31" y="-189.19" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no-circular</text>
+</g>
+<!-- src/models/dao/SensorDAO.ts&#45;&gt;src/models/dao/GatewayDAO.ts -->
+<g id="edge29" class="edge">
+<title>src/models/dao/SensorDAO.ts-&gt;src/models/dao/GatewayDAO.ts</title>
+<g id="a_edge29"><a xlink:title="no-circular">
+<path fill="none" stroke="orange" stroke-width="2" d="M708.33,-183.27C703.85,-183.39 699.19,-183.46 694.48,-183.49"/>
+<polygon fill="orange" stroke="orange" stroke-width="2" points="684.91,-181.32 678.89,-183.38 684.88,-185.52 684.91,-181.32"/>
+<polyline fill="none" stroke="orange" stroke-width="2" points="685.89,-183.43 688.89,-183.45"/>
+<ellipse fill="none" stroke="orange" stroke-width="2" cx="692.29" cy="-183.47" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="715.55" y="-180.79" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no-circular</text>
+</g>
+<!-- src/models/dao/SensorDAO.ts&#45;&gt;src/models/dao/MeasurementDAO.ts -->
+<g id="edge30" class="edge">
+<title>src/models/dao/SensorDAO.ts-&gt;src/models/dao/MeasurementDAO.ts</title>
+<g id="a_edge30"><a xlink:title="no-circular">
+<path fill="none" stroke="orange" stroke-width="2" d="M782.43,-174.67C782.59,-174.67 782.76,-174.66 782.92,-174.66"/>
+<polygon fill="orange" stroke="orange" stroke-width="2" points="789.55,-176.69 795.53,-174.53 789.51,-172.49 789.55,-176.69"/>
+<polyline fill="none" stroke="orange" stroke-width="2" points="788.53,-174.6 785.53,-174.63"/>
+<ellipse fill="none" stroke="orange" stroke-width="2" cx="782.13" cy="-174.67" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="803.9" y="-166.56" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no-circular</text>
+</g>
+<!-- src/models/dao/MeasurementDAO.ts&#45;&gt;src/models/dao/SensorDAO.ts -->
+<g id="edge27" class="edge">
+<title>src/models/dao/MeasurementDAO.ts-&gt;src/models/dao/SensorDAO.ts</title>
+<g id="a_edge27"><a xlink:title="no-circular">
+<path fill="none" stroke="orange" stroke-width="2" d="M798.56,-183.5C798.47,-183.5 798.39,-183.5 798.3,-183.5"/>
+<polygon fill="orange" stroke="orange" stroke-width="2" points="791.48,-181.33 785.46,-183.36 791.43,-185.53 791.48,-181.33"/>
+<polyline fill="none" stroke="orange" stroke-width="2" points="792.46,-183.44 795.46,-183.47"/>
+<ellipse fill="none" stroke="orange" stroke-width="2" cx="798.86" cy="-183.5" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="777.33" y="-186.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">no-circular</text>
+</g>
+<!-- src/models/dao/UserDAO.ts&#45;&gt;src/models/UserType.ts -->
+<g id="edge32" class="edge">
+<title>src/models/dao/UserDAO.ts-&gt;src/models/UserType.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M657.88,-219.81C670.27,-226.65 684.76,-237.06 692.18,-251 709.77,-284.08 683,-557.8 705.18,-588 705.43,-588.35 705.7,-588.69 705.98,-589.02"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="704.62,-590.62 710.56,-592.89 707.32,-587.41 704.62,-590.62"/>
+</g>
+<!-- src/models/dao/UserDAO.ts&#45;&gt;src/models/dao/NetworkDAO.ts -->
+<g id="edge31" class="edge">
+<title>src/models/dao/UserDAO.ts-&gt;src/models/dao/NetworkDAO.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M667.48,-210C676.85,-210 687.34,-210 697.48,-210"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="697.25,-212.1 703.25,-210 697.25,-207.9 697.25,-212.1"/>
+</g>
+<!-- src/models/dto/ErrorDTO.ts -->
+<g id="node35" class="node">
+<title>src/models/dto/ErrorDTO.ts</title>
+<g id="a_node35"><a xlink:href="src/models/dto/ErrorDTO.ts" xlink:title="no-orphans">
+<path fill="#ccffcc" stroke="orange" d="M661.14,-280.4C661.14,-280.4 609.18,-280.4 609.18,-280.4 606.04,-280.4 602.91,-277.27 602.91,-274.13 602.91,-274.13 602.91,-267.87 602.91,-267.87 602.91,-264.73 606.04,-261.6 609.18,-261.6 609.18,-261.6 661.14,-261.6 661.14,-261.6 664.28,-261.6 667.41,-264.73 667.41,-267.87 667.41,-267.87 667.41,-274.13 667.41,-274.13 667.41,-277.27 664.28,-280.4 661.14,-280.4"/>
+<text text-anchor="start" x="610.91" y="-268.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="orange">ErrorDTO.ts</text>
+</a>
+</g>
+</g>
+<!-- src/models/errors/ConflictError.ts&#45;&gt;src/models/errors/AppError.ts -->
+<g id="edge38" class="edge">
+<title>src/models/errors/ConflictError.ts-&gt;src/models/errors/AppError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M673.12,-523.12C683.65,-524.58 695.15,-526.17 705.78,-527.64"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="705.23,-529.69 711.46,-528.43 705.81,-525.53 705.23,-529.69"/>
+</g>
+<!-- src/models/errors/InsufficientRightsError.ts -->
+<g id="node38" class="node">
+<title>src/models/errors/InsufficientRightsError.ts</title>
+<g id="a_node38"><a xlink:href="src/models/errors/InsufficientRightsError.ts" xlink:title="InsufficientRightsError.ts">
+<path fill="#ddfeff" stroke="black" d="M685.91,-496.4C685.91,-496.4 584.41,-496.4 584.41,-496.4 581.28,-496.4 578.14,-493.27 578.14,-490.13 578.14,-490.13 578.14,-483.87 578.14,-483.87 578.14,-480.73 581.28,-477.6 584.41,-477.6 584.41,-477.6 685.91,-477.6 685.91,-477.6 689.04,-477.6 692.18,-480.73 692.18,-483.87 692.18,-483.87 692.18,-490.13 692.18,-490.13 692.18,-493.27 689.04,-496.4 685.91,-496.4"/>
+<text text-anchor="start" x="586.14" y="-484.3" font-family="Helvetica,sans-Serif" font-size="9.00">InsufficientRightsError.ts</text>
+</a>
+</g>
+</g>
+<!-- src/models/errors/InsufficientRightsError.ts&#45;&gt;src/models/errors/AppError.ts -->
+<g id="edge39" class="edge">
+<title>src/models/errors/InsufficientRightsError.ts-&gt;src/models/errors/AppError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M675.16,-496.81C680.94,-498.65 686.77,-500.72 692.18,-503 702.46,-507.34 713.26,-513.28 722.35,-518.73"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="721.05,-520.4 727.26,-521.75 723.25,-516.82 721.05,-520.4"/>
+</g>
+<!-- src/models/errors/NotFoundError.ts&#45;&gt;src/models/errors/AppError.ts -->
+<g id="edge40" class="edge">
+<title>src/models/errors/NotFoundError.ts-&gt;src/models/errors/AppError.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M678.04,-464.99C683,-466.9 687.83,-469.22 692.18,-472 709.64,-483.2 724.46,-501.99 733.81,-515.76"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="731.97,-516.78 737,-520.66 735.48,-514.49 731.97,-516.78"/>
+</g>
+</g>
+</g></svg>

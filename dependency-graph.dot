@@ -1,0 +1,165 @@
+strict digraph "dependency-cruiser output"{
+    rankdir="LR" splines="true" overlap="false" nodesep="0.16" ranksep="0.18" fontname="Helvetica-bold" fontsize="9" style="rounded,bold,filled" fillcolor="#ffffff" compound="true"
+    node [shape="box" style="rounded, filled" height="0.2" color="black" fillcolor="#ffffcc" fontcolor="black" fontname="Helvetica" fontsize="9"]
+    edge [arrowhead="normal" arrowsize="0.6" penwidth="2.0" color="#00000033" fontname="Helvetica" fontsize="9"]
+
+    subgraph "cluster_src" {label="src" "src/app.ts" [label=<app.ts> tooltip="app.ts" URL="src/app.ts" fillcolor="#ddfeff"] }
+    "src/app.ts" -> "src/config/config.ts"
+    "src/app.ts" -> "src/middlewares/errorMiddleware.ts"
+    "src/app.ts" -> "src/routes/authenticationRoutes.ts"
+    "src/app.ts" -> "src/routes/gatewayRoutes.ts"
+    "src/app.ts" -> "src/routes/measurementRoutes.ts"
+    "src/app.ts" -> "src/routes/networkRoutes.ts"
+    "src/app.ts" -> "src/routes/sensorRoutes.ts"
+    "src/app.ts" -> "src/routes/userRoutes.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/config" {label="config" "src/config/config.ts" [label=<config.ts> tooltip="config.ts" URL="src/config/config.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/controllers" {label="controllers" "src/controllers/authController.ts" [label=<authController.ts> tooltip="authController.ts" URL="src/controllers/authController.ts" fillcolor="#ddfeff"] } }
+    "src/controllers/authController.ts" -> "src/models/dto/User.ts"
+    "src/controllers/authController.ts" -> "src/models/errors/UnauthorizedError.ts"
+    "src/controllers/authController.ts" -> "src/models/dto/Token.ts"
+    "src/controllers/authController.ts" -> "src/repositories/UserRepository.ts"
+    "src/controllers/authController.ts" -> "src/services/authService.ts"
+    "src/controllers/authController.ts" -> "src/services/mapperService.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/controllers" {label="controllers" "src/controllers/gatewayController.ts" [label=<gatewayController.ts> tooltip="gatewayController.ts" URL="src/controllers/gatewayController.ts" fillcolor="#ddfeff"] } }
+    "src/controllers/gatewayController.ts" -> "src/models/dto/Gateway.ts"
+    "src/controllers/gatewayController.ts" -> "src/repositories/GatewayRepository.ts"
+    "src/controllers/gatewayController.ts" -> "src/services/mapperService.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/controllers" {label="controllers" "src/controllers/measurementController.ts" [label=<measurementController.ts> tooltip="measurementController.ts" URL="src/controllers/measurementController.ts" fillcolor="#ddfeff"] } }
+    "src/controllers/measurementController.ts" -> "src/models/dto/Measurement.ts"
+    "src/controllers/measurementController.ts" -> "src/models/dto/Measurements.ts"
+    "src/controllers/measurementController.ts" -> "src/models/dto/Stats.ts"
+    "src/controllers/measurementController.ts" -> "src/repositories/MeasurementRepository.ts"
+    "src/controllers/measurementController.ts" -> "src/repositories/NetworkRepository.ts"
+    "src/controllers/measurementController.ts" -> "src/services/mapperService.ts"
+    "src/controllers/measurementController.ts" -> "src/utils.ts"
+    "src/controllers/measurementController.ts" -> "src/statsutils.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/controllers" {label="controllers" "src/controllers/networkController.ts" [label=<networkController.ts> tooltip="networkController.ts" URL="src/controllers/networkController.ts" fillcolor="#ddfeff"] } }
+    "src/controllers/networkController.ts" -> "src/models/dto/Network.ts"
+    "src/controllers/networkController.ts" -> "src/repositories/NetworkRepository.ts"
+    "src/controllers/networkController.ts" -> "src/services/mapperService.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/controllers" {label="controllers" "src/controllers/sensorController.ts" [label=<sensorController.ts> tooltip="sensorController.ts" URL="src/controllers/sensorController.ts" fillcolor="#ddfeff"] } }
+    "src/controllers/sensorController.ts" -> "src/models/dto/Sensor.ts"
+    "src/controllers/sensorController.ts" -> "src/repositories/SensorRepository.ts"
+    "src/controllers/sensorController.ts" -> "src/services/mapperService.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/controllers" {label="controllers" "src/controllers/userController.ts" [label=<userController.ts> tooltip="userController.ts" URL="src/controllers/userController.ts" fillcolor="#ddfeff"] } }
+    "src/controllers/userController.ts" -> "src/models/dto/User.ts"
+    "src/controllers/userController.ts" -> "src/repositories/UserRepository.ts"
+    "src/controllers/userController.ts" -> "src/services/mapperService.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/database" {label="database" "src/database/connection.ts" [label=<connection.ts> tooltip="connection.ts" URL="src/database/connection.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" "src/index.ts" [label=<index.ts> tooltip="index.ts" URL="src/index.ts" fillcolor="#ddfeff"] }
+    "src/index.ts" -> "src/app.ts"
+    "src/index.ts" -> "src/config/config.ts"
+    "src/index.ts" -> "src/database/connection.ts"
+    "src/index.ts" -> "src/services/loggingService.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/middlewares" {label="middlewares" "src/middlewares/authMiddleware.ts" [label=<authMiddleware.ts> tooltip="authMiddleware.ts" URL="src/middlewares/authMiddleware.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/middlewares" {label="middlewares" "src/middlewares/errorMiddleware.ts" [label=<errorMiddleware.ts> tooltip="errorMiddleware.ts" URL="src/middlewares/errorMiddleware.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" "src/models/UserType.ts" [label=<UserType.ts> tooltip="UserType.ts" URL="src/models/UserType.ts" fillcolor="#ddfeff"] } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dao" {label="dao" "src/models/dao/GatewayDAO.ts" [label=<GatewayDAO.ts> tooltip="GatewayDAO.ts" URL="src/models/dao/GatewayDAO.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dao/GatewayDAO.ts" -> "src/models/dao/NetworkDAO.ts" [xlabel="no-circular" tooltip="no-circular" arrowhead="normalnoneodot" fontcolor="orange" color="orange"]
+    "src/models/dao/GatewayDAO.ts" -> "src/models/dao/SensorDAO.ts" [xlabel="no-circular" tooltip="no-circular" arrowhead="normalnoneodot" fontcolor="orange" color="orange"]
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dao" {label="dao" "src/models/dao/MeasurementDAO.ts" [label=<MeasurementDAO.ts> tooltip="MeasurementDAO.ts" URL="src/models/dao/MeasurementDAO.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dao/MeasurementDAO.ts" -> "src/models/dao/SensorDAO.ts" [xlabel="no-circular" tooltip="no-circular" arrowhead="normalnoneodot" fontcolor="orange" color="orange"]
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dao" {label="dao" "src/models/dao/NetworkDAO.ts" [label=<NetworkDAO.ts> tooltip="NetworkDAO.ts" URL="src/models/dao/NetworkDAO.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dao/NetworkDAO.ts" -> "src/models/dao/GatewayDAO.ts" [xlabel="no-circular" tooltip="no-circular" arrowhead="normalnoneodot" fontcolor="orange" color="orange"]
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dao" {label="dao" "src/models/dao/SensorDAO.ts" [label=<SensorDAO.ts> tooltip="SensorDAO.ts" URL="src/models/dao/SensorDAO.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dao/SensorDAO.ts" -> "src/models/dao/GatewayDAO.ts" [xlabel="no-circular" tooltip="no-circular" arrowhead="normalnoneodot" fontcolor="orange" color="orange"]
+    "src/models/dao/SensorDAO.ts" -> "src/models/dao/MeasurementDAO.ts" [xlabel="no-circular" tooltip="no-circular" arrowhead="normalnoneodot" fontcolor="orange" color="orange"]
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dao" {label="dao" "src/models/dao/UserDAO.ts" [label=<UserDAO.ts> tooltip="UserDAO.ts" URL="src/models/dao/UserDAO.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dao/UserDAO.ts" -> "src/models/dao/NetworkDAO.ts"
+    "src/models/dao/UserDAO.ts" -> "src/models/UserType.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/ErrorDTO.ts" [label=<ErrorDTO.ts> tooltip="no-orphans" URL="src/models/dto/ErrorDTO.ts" fillcolor="#ccffcc" fontcolor="orange" color="orange"] } } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Gateway.ts" [label=<Gateway.ts> tooltip="Gateway.ts" URL="src/models/dto/Gateway.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dto/Gateway.ts" -> "src/models/dto/Sensor.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Measurement.ts" [label=<Measurement.ts> tooltip="Measurement.ts" URL="src/models/dto/Measurement.ts" fillcolor="#ddfeff"] } } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Measurements.ts" [label=<Measurements.ts> tooltip="Measurements.ts" URL="src/models/dto/Measurements.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dto/Measurements.ts" -> "src/models/dto/Measurement.ts"
+    "src/models/dto/Measurements.ts" -> "src/models/dto/Stats.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Network.ts" [label=<Network.ts> tooltip="Network.ts" URL="src/models/dto/Network.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dto/Network.ts" -> "src/models/dto/Gateway.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Sensor.ts" [label=<Sensor.ts> tooltip="Sensor.ts" URL="src/models/dto/Sensor.ts" fillcolor="#ddfeff"] } } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Stats.ts" [label=<Stats.ts> tooltip="Stats.ts" URL="src/models/dto/Stats.ts" fillcolor="#ddfeff"] } } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/Token.ts" [label=<Token.ts> tooltip="Token.ts" URL="src/models/dto/Token.ts" fillcolor="#ddfeff"] } } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/dto" {label="dto" "src/models/dto/User.ts" [label=<User.ts> tooltip="User.ts" URL="src/models/dto/User.ts" fillcolor="#ddfeff"] } } }
+    "src/models/dto/User.ts" -> "src/models/UserType.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/errors" {label="errors" "src/models/errors/AppError.ts" [label=<AppError.ts> tooltip="AppError.ts" URL="src/models/errors/AppError.ts" fillcolor="#ddfeff"] } } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/errors" {label="errors" "src/models/errors/ConflictError.ts" [label=<ConflictError.ts> tooltip="ConflictError.ts" URL="src/models/errors/ConflictError.ts" fillcolor="#ddfeff"] } } }
+    "src/models/errors/ConflictError.ts" -> "src/models/errors/AppError.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/errors" {label="errors" "src/models/errors/InsufficientRightsError.ts" [label=<InsufficientRightsError.ts> tooltip="InsufficientRightsError.ts" URL="src/models/errors/InsufficientRightsError.ts" fillcolor="#ddfeff"] } } }
+    "src/models/errors/InsufficientRightsError.ts" -> "src/models/errors/AppError.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/errors" {label="errors" "src/models/errors/NotFoundError.ts" [label=<NotFoundError.ts> tooltip="NotFoundError.ts" URL="src/models/errors/NotFoundError.ts" fillcolor="#ddfeff"] } } }
+    "src/models/errors/NotFoundError.ts" -> "src/models/errors/AppError.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/models" {label="models" subgraph "cluster_src/models/errors" {label="errors" "src/models/errors/UnauthorizedError.ts" [label=<UnauthorizedError.ts> tooltip="UnauthorizedError.ts" URL="src/models/errors/UnauthorizedError.ts" fillcolor="#ddfeff"] } } }
+    "src/models/errors/UnauthorizedError.ts" -> "src/models/errors/AppError.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/repositories" {label="repositories" "src/repositories/GatewayRepository.ts" [label=<GatewayRepository.ts> tooltip="GatewayRepository.ts" URL="src/repositories/GatewayRepository.ts" fillcolor="#ddfeff"] } }
+    "src/repositories/GatewayRepository.ts" -> "src/models/dao/GatewayDAO.ts"
+    "src/repositories/GatewayRepository.ts" -> "src/models/dao/NetworkDAO.ts"
+    "src/repositories/GatewayRepository.ts" -> "src/database/connection.ts"
+    "src/repositories/GatewayRepository.ts" -> "src/models/dao/SensorDAO.ts"
+    "src/repositories/GatewayRepository.ts" -> "src/models/errors/ConflictError.ts"
+    "src/repositories/GatewayRepository.ts" -> "src/utils.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/repositories" {label="repositories" "src/repositories/MeasurementRepository.ts" [label=<MeasurementRepository.ts> tooltip="MeasurementRepository.ts" URL="src/repositories/MeasurementRepository.ts" fillcolor="#ddfeff"] } }
+    "src/repositories/MeasurementRepository.ts" -> "src/models/dao/GatewayDAO.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/models/dao/MeasurementDAO.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/models/dao/NetworkDAO.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/models/dao/SensorDAO.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/database/connection.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/models/dto/Measurement.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/services/mapperService.ts"
+    "src/repositories/MeasurementRepository.ts" -> "src/utils.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/repositories" {label="repositories" "src/repositories/NetworkRepository.ts" [label=<NetworkRepository.ts> tooltip="NetworkRepository.ts" URL="src/repositories/NetworkRepository.ts" fillcolor="#ddfeff"] } }
+    "src/repositories/NetworkRepository.ts" -> "src/models/dao/NetworkDAO.ts"
+    "src/repositories/NetworkRepository.ts" -> "src/database/connection.ts"
+    "src/repositories/NetworkRepository.ts" -> "src/models/errors/NotFoundError.ts"
+    "src/repositories/NetworkRepository.ts" -> "src/models/dao/SensorDAO.ts"
+    "src/repositories/NetworkRepository.ts" -> "src/utils.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/repositories" {label="repositories" "src/repositories/SensorRepository.ts" [label=<SensorRepository.ts> tooltip="SensorRepository.ts" URL="src/repositories/SensorRepository.ts" fillcolor="#ddfeff"] } }
+    "src/repositories/SensorRepository.ts" -> "src/models/dao/GatewayDAO.ts"
+    "src/repositories/SensorRepository.ts" -> "src/models/dao/MeasurementDAO.ts"
+    "src/repositories/SensorRepository.ts" -> "src/models/dao/SensorDAO.ts"
+    "src/repositories/SensorRepository.ts" -> "src/database/connection.ts"
+    "src/repositories/SensorRepository.ts" -> "src/models/errors/ConflictError.ts"
+    "src/repositories/SensorRepository.ts" -> "src/utils.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/repositories" {label="repositories" "src/repositories/UserRepository.ts" [label=<UserRepository.ts> tooltip="UserRepository.ts" URL="src/repositories/UserRepository.ts" fillcolor="#ddfeff"] } }
+    "src/repositories/UserRepository.ts" -> "src/models/dao/UserDAO.ts"
+    "src/repositories/UserRepository.ts" -> "src/database/connection.ts"
+    "src/repositories/UserRepository.ts" -> "src/models/UserType.ts"
+    "src/repositories/UserRepository.ts" -> "src/utils.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/routes" {label="routes" "src/routes/authenticationRoutes.ts" [label=<authenticationRoutes.ts> tooltip="authenticationRoutes.ts" URL="src/routes/authenticationRoutes.ts" fillcolor="#ddfeff"] } }
+    "src/routes/authenticationRoutes.ts" -> "src/controllers/authController.ts"
+    "src/routes/authenticationRoutes.ts" -> "src/models/dto/User.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/routes" {label="routes" "src/routes/gatewayRoutes.ts" [label=<gatewayRoutes.ts> tooltip="gatewayRoutes.ts" URL="src/routes/gatewayRoutes.ts" fillcolor="#ddfeff"] } }
+    "src/routes/gatewayRoutes.ts" -> "src/controllers/gatewayController.ts"
+    "src/routes/gatewayRoutes.ts" -> "src/middlewares/authMiddleware.ts"
+    "src/routes/gatewayRoutes.ts" -> "src/models/dto/Gateway.ts"
+    "src/routes/gatewayRoutes.ts" -> "src/models/UserType.ts"
+    "src/routes/gatewayRoutes.ts" -> "src/routes/sensorRoutes.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/routes" {label="routes" "src/routes/measurementRoutes.ts" [label=<measurementRoutes.ts> tooltip="measurementRoutes.ts" URL="src/routes/measurementRoutes.ts" fillcolor="#ddfeff"] } }
+    "src/routes/measurementRoutes.ts" -> "src/config/config.ts"
+    "src/routes/measurementRoutes.ts" -> "src/controllers/measurementController.ts"
+    "src/routes/measurementRoutes.ts" -> "src/middlewares/authMiddleware.ts"
+    "src/routes/measurementRoutes.ts" -> "src/models/errors/AppError.ts"
+    "src/routes/measurementRoutes.ts" -> "src/models/UserType.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/routes" {label="routes" "src/routes/networkRoutes.ts" [label=<networkRoutes.ts> tooltip="networkRoutes.ts" URL="src/routes/networkRoutes.ts" fillcolor="#ddfeff"] } }
+    "src/routes/networkRoutes.ts" -> "src/controllers/networkController.ts"
+    "src/routes/networkRoutes.ts" -> "src/models/dto/Network.ts"
+    "src/routes/networkRoutes.ts" -> "src/middlewares/authMiddleware.ts"
+    "src/routes/networkRoutes.ts" -> "src/models/errors/AppError.ts"
+    "src/routes/networkRoutes.ts" -> "src/models/UserType.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/routes" {label="routes" "src/routes/sensorRoutes.ts" [label=<sensorRoutes.ts> tooltip="sensorRoutes.ts" URL="src/routes/sensorRoutes.ts" fillcolor="#ddfeff"] } }
+    "src/routes/sensorRoutes.ts" -> "src/controllers/sensorController.ts"
+    "src/routes/sensorRoutes.ts" -> "src/middlewares/authMiddleware.ts"
+    "src/routes/sensorRoutes.ts" -> "src/models/dto/Sensor.ts"
+    "src/routes/sensorRoutes.ts" -> "src/models/UserType.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/routes" {label="routes" "src/routes/userRoutes.ts" [label=<userRoutes.ts> tooltip="userRoutes.ts" URL="src/routes/userRoutes.ts" fillcolor="#ddfeff"] } }
+    "src/routes/userRoutes.ts" -> "src/controllers/userController.ts"
+    "src/routes/userRoutes.ts" -> "src/models/dto/User.ts"
+    "src/routes/userRoutes.ts" -> "src/middlewares/authMiddleware.ts"
+    "src/routes/userRoutes.ts" -> "src/models/UserType.ts"
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/services" {label="services" "src/services/authService.ts" [label=<authService.ts> tooltip="authService.ts" URL="src/services/authService.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/services" {label="services" "src/services/loggingService.ts" [label=<loggingService.ts> tooltip="loggingService.ts" URL="src/services/loggingService.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" subgraph "cluster_src/services" {label="services" "src/services/mapperService.ts" [label=<mapperService.ts> tooltip="mapperService.ts" URL="src/services/mapperService.ts" fillcolor="#ddfeff" shape="folder"] } }
+    subgraph "cluster_src" {label="src" "src/statsutils.ts" [label=<statsutils.ts> tooltip="statsutils.ts" URL="src/statsutils.ts" fillcolor="#ddfeff"] }
+    subgraph "cluster_src" {label="src" "src/utils.ts" [label=<utils.ts> tooltip="utils.ts" URL="src/utils.ts" fillcolor="#ddfeff"] }
+    "src/utils.ts" -> "src/models/errors/ConflictError.ts"
+    "src/utils.ts" -> "src/models/errors/NotFoundError.ts"
+}
